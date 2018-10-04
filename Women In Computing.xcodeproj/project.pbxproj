@@ -15,6 +15,7 @@
 		3F43ECD52166B819007ABB36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F43ECD32166B819007ABB36 /* LaunchScreen.storyboard */; };
 		3F43ECE02166B819007ABB36 /* Women_In_ComputingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43ECDF2166B819007ABB36 /* Women_In_ComputingTests.swift */; };
 		3F43ECEB2166B819007ABB36 /* Women_In_ComputingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43ECEA2166B819007ABB36 /* Women_In_ComputingUITests.swift */; };
+		3F43ECF92166C5E8007ABB36 /* FamousWomenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43ECF82166C5E8007ABB36 /* FamousWomenTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3F43ECE62166B819007ABB36 /* Women In ComputingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Women In ComputingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F43ECEA2166B819007ABB36 /* Women_In_ComputingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Women_In_ComputingUITests.swift; sourceTree = "<group>"; };
 		3F43ECEC2166B819007ABB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F43ECF82166C5E8007ABB36 /* FamousWomenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamousWomenTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				3F43ECD12166B819007ABB36 /* Assets.xcassets */,
 				3F43ECD32166B819007ABB36 /* LaunchScreen.storyboard */,
 				3F43ECD62166B819007ABB36 /* Info.plist */,
+				3F43ECF82166C5E8007ABB36 /* FamousWomenTableViewController.swift */,
 			);
 			path = "Women In Computing";
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				3F43ECCD2166B819007ABB36 /* SecondViewController.swift in Sources */,
 				3F43ECC92166B819007ABB36 /* AppDelegate.swift in Sources */,
 				3F43ECCB2166B819007ABB36 /* FirstViewController.swift in Sources */,
+				3F43ECF92166C5E8007ABB36 /* FamousWomenTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
