@@ -92,7 +92,7 @@ class gamePage: UIViewController {
     }
     
     func onLevelSelecton(){
-        let gameVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "game") as! FirstViewController
+        let gameVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "game") as! GameViewController
         self.present(gameVC, animated: true, completion: nil)
     }
     
