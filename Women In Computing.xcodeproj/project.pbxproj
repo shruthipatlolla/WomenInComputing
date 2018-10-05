@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29CE7A4E216731E800050F60 /* gamePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CE7A4D216731E800050F60 /* gamePage.swift */; };
 		3F43ECC92166B819007ABB36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43ECC82166B819007ABB36 /* AppDelegate.swift */; };
 		3F43ECCB2166B819007ABB36 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43ECCA2166B819007ABB36 /* FirstViewController.swift */; };
 		3F43ECCD2166B819007ABB36 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43ECCC2166B819007ABB36 /* SecondViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29CE7A4D216731E800050F60 /* gamePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gamePage.swift; sourceTree = "<group>"; };
 		3F43ECC52166B819007ABB36 /* Women In Computing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Women In Computing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F43ECC82166B819007ABB36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F43ECCA2166B819007ABB36 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				3F43ECCA2166B819007ABB36 /* FirstViewController.swift */,
 				3F43ECCC2166B819007ABB36 /* SecondViewController.swift */,
 				3F43ECCE2166B819007ABB36 /* Main.storyboard */,
+				29CE7A4D216731E800050F60 /* gamePage.swift */,
 				3F43ECD12166B819007ABB36 /* Assets.xcassets */,
 				3F43ECD32166B819007ABB36 /* LaunchScreen.storyboard */,
 				3F43ECD62166B819007ABB36 /* Info.plist */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F43ECCD2166B819007ABB36 /* SecondViewController.swift in Sources */,
+				29CE7A4E216731E800050F60 /* gamePage.swift in Sources */,
 				3F43ECC92166B819007ABB36 /* AppDelegate.swift in Sources */,
 				3F43ECCB2166B819007ABB36 /* FirstViewController.swift in Sources */,
 				3F43ECF92166C5E8007ABB36 /* FamousWomenTableViewController.swift in Sources */,
