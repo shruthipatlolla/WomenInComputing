@@ -14,6 +14,7 @@ let names = ["Maxres", "Edith Clarke", "Grace Hopper"]
     let descp = ["Edith Clarke was the first female electrical engineer at the University of Texas at Austin. She specialized in electrical power system analysis.", "Jean Jennings Bartik was one of the original programmers for the ENIAC computer. She studied mathematics in school then began manually calculating ballistics trajectories", "Grace Brewster Murray Hopper was an American computer scientist. she was a pioneer of computer programming"]
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!)
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false

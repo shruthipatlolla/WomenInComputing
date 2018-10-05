@@ -29,52 +29,71 @@ class gamePage: UIViewController {
     @IBOutlet weak var gold: UIImageView!
     
     @IBAction func level1(_ sender: Any) {
+        onLevelSelecton()
     }
     
     @IBAction func level2(_ sender: Any) {
+        onLevelSelecton()
     }
     
     @IBAction func level3(_ sender: Any) {
+        onLevelSelecton()
     }
     
     @IBAction func level4(_ sender: Any) {
+        onLevelSelecton()
     }
     
     @IBAction func level5(_ sender: Any) {
+        onLevelSelecton()
     }
     
     @IBAction func level6(_ sender: Any) {
+        onLevelSelecton()
     }
     
     @IBAction func level7(_ sender: Any) {
     }
     
     @IBAction func level8(_ sender: Any) {
+        onLevelSelecton()
     }
     
     @IBAction func level9(_ sender: Any) {
+        onLevelSelecton()
     }
     
     
     @IBAction func level10(_ sender: Any) {
+        onLevelSelecton()
     }
     
     
     @IBAction func level11(_ sender: Any) {
+        onLevelSelecton()
     }
     
     @IBAction func level12(_ sender: Any) {
+        onLevelSelecton()
     }
     
     @IBAction func level13(_ sender: Any) {
+        onLevelSelecton()
     }
     
     
     @IBAction func level14(_ sender: Any) {
+        onLevelSelecton()
     }
     
     
     @IBAction func level15(_ sender: Any) {
+        onLevelSelecton()
+    }
+    
+    func onLevelSelecton(){
+        let gameVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "game") as! FirstViewController
+        self.present(gameVC, animated: true, completion: nil)
     }
     
     override func viewDidLoad() {
