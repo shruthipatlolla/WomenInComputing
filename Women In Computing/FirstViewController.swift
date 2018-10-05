@@ -8,11 +8,10 @@
 
 import UIKit
 
-class GameViewController: UIViewController {
+class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -23,9 +22,5 @@ class GameViewController: UIViewController {
     }
 
     
-    @IBAction func onGo(_ sender: Any) {
-        let levelVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "levelViewController") as! gamePage
-        self.present(levelVC, animated: true, completion: nil)
-    }
 }
 
