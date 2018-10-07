@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.3.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="TimesNewRomanBold.ttf">
-            <string>TimesNewRomanPS-BoldMT</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--First View Controller-->
         <scene sceneID="gNT-Wv-9Jt">
@@ -38,39 +33,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Know about the famous women in computing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5TJ-5d-Gd5">
+                        <label key="tableHeaderView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Famous women in computing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5TJ-5d-Gd5">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="24"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="240" id="bSA-jV-Pz9">
-                                <rect key="frame" x="0.0" y="72" width="375" height="240"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="197" id="bSA-jV-Pz9">
+                                <rect key="frame" x="0.0" y="72" width="375" height="197"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="bSA-jV-Pz9" id="Ln9-Cj-z6q">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="239.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="196.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aID-DL-oI4">
-                                            <rect key="frame" x="16" y="11" width="120" height="110"/>
+                                            <rect key="frame" x="16" y="11" width="100" height="77"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" tag="200" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Npd-Yf-oBD">
-                                            <rect key="frame" x="206" y="33" width="145" height="67"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="300" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5KW-E7-4x0">
-                                            <rect key="frame" x="16" y="129" width="335" height="110"/>
+                                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" tag="300" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5KW-E7-4x0">
+                                            <rect key="frame" x="16" y="96" width="335" height="77"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                         </textView>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="200" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Npd-Yf-oBD">
+                                            <rect key="frame" x="139" y="27" width="145" height="44"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -80,7 +75,7 @@
                             <outlet property="delegate" destination="Bec-ua-tqA" id="DYh-rU-wfW"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Famous Women" image="first" id="Icw-GL-ZOH"/>
+                    <tabBarItem key="tabBarItem" title="Famous Women" image="women" id="Icw-GL-ZOH"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tqh-lx-8ga" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -412,7 +407,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PE0-Og-gDc"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Quiz" image="second" id="CtL-Ib-67A"/>
+                    <tabBarItem key="tabBarItem" title="Quiz" image="quiz" id="CtL-Ib-67A"/>
                     <connections>
                         <outlet property="background" destination="kka-UT-BSe" id="EWd-Mz-D6e"/>
                         <outlet property="coins" destination="OKl-44-f2r" id="Vlb-HE-7ce"/>
@@ -552,7 +547,7 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="O1u-W8-tvY"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Settings" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings" id="cPa-gy-q4n"/>
                     <connections>
                         <outlet property="contactNumberLbl" destination="pbl-CJ-ERh" id="QJu-Vf-6pb"/>
                         <outlet property="emailLbl" destination="kFj-OW-Kg5" id="2Rd-b3-p4c"/>
@@ -598,10 +593,11 @@
         <image name="Music-icon" width="512" height="512"/>
         <image name="background" width="1683" height="1262"/>
         <image name="coins" width="80" height="80"/>
-        <image name="first" width="30" height="30"/>
         <image name="help" width="512" height="512"/>
         <image name="lives" width="128" height="128"/>
         <image name="music" width="512" height="512"/>
-        <image name="second" width="30" height="30"/>
+        <image name="quiz" width="29" height="29"/>
+        <image name="settings" width="29" height="29"/>
+        <image name="women" width="29" height="29"/>
     </resources>
 </document>
