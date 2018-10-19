@@ -2,7 +2,7 @@
 //  FamousWomenTableViewController.swift
 //  Women In Computing
 //
-//  Created by Student on 10/4/18.
+//  Created by Bhavika Padidala on 10/4/18.
 //  Copyright © 2018 Student. All rights reserved.
 //
 
