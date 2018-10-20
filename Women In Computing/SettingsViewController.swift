@@ -13,8 +13,7 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var userNameLbl: UILabel!
     
     @IBOutlet weak var passwordLbl: UILabel!
-    
-    @IBOutlet weak var contactNumberLbl: UILabel!
+   
     
     @IBOutlet weak var emailLbl: UILabel!
     

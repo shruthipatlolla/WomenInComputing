@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1609BB9B217B053A00B88AC2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609BB9A217B053A00B88AC2 /* LoginViewController.swift */; };
+		1609BB9D217B0A0F00B88AC2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609BB9C217B0A0F00B88AC2 /* UserModel.swift */; };
+		1609BB9F217B123B00B88AC2 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609BB9E217B123B00B88AC2 /* RegistrationViewController.swift */; };
+		1609BBA1217B1E3C00B88AC2 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609BBA0217B1E3C00B88AC2 /* ForgotPasswordViewController.swift */; };
 		29CE7A4E216731E800050F60 /* LevelPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CE7A4D216731E800050F60 /* LevelPageViewController.swift */; };
 		3F3614BA2168097F00072997 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3614B92168097F00072997 /* SettingsViewController.swift */; };
 		3F43ECC92166B819007ABB36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43ECC82166B819007ABB36 /* AppDelegate.swift */; };
@@ -42,6 +46,10 @@
 
 /* Begin PBXFileReference section */
 		07BA19EC513EE711A90C80C6 /* Pods-Women In ComputingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women In ComputingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Women In ComputingUITests/Pods-Women In ComputingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1609BB9A217B053A00B88AC2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1609BB9C217B0A0F00B88AC2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		1609BB9E217B123B00B88AC2 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		1609BBA0217B1E3C00B88AC2 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		29CE7A4D216731E800050F60 /* LevelPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelPageViewController.swift; sourceTree = "<group>"; };
 		3F3614B92168097F00072997 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		3F43ECC52166B819007ABB36 /* Women In Computing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Women In Computing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +143,8 @@
 				3F43ECC82166B819007ABB36 /* AppDelegate.swift */,
 				3F43ECCA2166B819007ABB36 /* GameViewController.swift */,
 				3F43ECCE2166B819007ABB36 /* Main.storyboard */,
+				1609BB9E217B123B00B88AC2 /* RegistrationViewController.swift */,
+				1609BB9C217B0A0F00B88AC2 /* UserModel.swift */,
 				29CE7A4D216731E800050F60 /* LevelPageViewController.swift */,
 				3F43ECD12166B819007ABB36 /* Assets.xcassets */,
 				3F43ECD32166B819007ABB36 /* LaunchScreen.storyboard */,
@@ -142,6 +152,8 @@
 				3F43ECF82166C5E8007ABB36 /* FamousWomenTableViewController.swift */,
 				3F3614B92168097F00072997 /* SettingsViewController.swift */,
 				C6D78175217AA36200E3CA5E /* model.swift */,
+				1609BB9A217B053A00B88AC2 /* LoginViewController.swift */,
+				1609BBA0217B1E3C00B88AC2 /* ForgotPasswordViewController.swift */,
 			);
 			path = "Women In Computing";
 			sourceTree = "<group>";
@@ -408,9 +420,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1609BB9B217B053A00B88AC2 /* LoginViewController.swift in Sources */,
 				29CE7A4E216731E800050F60 /* LevelPageViewController.swift in Sources */,
+				1609BB9D217B0A0F00B88AC2 /* UserModel.swift in Sources */,
+				1609BB9F217B123B00B88AC2 /* RegistrationViewController.swift in Sources */,
 				C6D78176217AA36200E3CA5E /* model.swift in Sources */,
 				3F43ECC92166B819007ABB36 /* AppDelegate.swift in Sources */,
+				1609BBA1217B1E3C00B88AC2 /* ForgotPasswordViewController.swift in Sources */,
 				3F43ECCB2166B819007ABB36 /* GameViewController.swift in Sources */,
 				3F3614BA2168097F00072997 /* SettingsViewController.swift in Sources */,
 				3F43ECF92166C5E8007ABB36 /* FamousWomenTableViewController.swift in Sources */,
