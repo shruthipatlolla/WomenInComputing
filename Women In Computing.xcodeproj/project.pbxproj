@@ -17,6 +17,10 @@
 		3F43ECE02166B819007ABB36 /* Women_In_ComputingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43ECDF2166B819007ABB36 /* Women_In_ComputingTests.swift */; };
 		3F43ECEB2166B819007ABB36 /* Women_In_ComputingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43ECEA2166B819007ABB36 /* Women_In_ComputingUITests.swift */; };
 		3F43ECF92166C5E8007ABB36 /* FamousWomenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43ECF82166C5E8007ABB36 /* FamousWomenTableViewController.swift */; };
+		4AE10C1EEF521CFF6C69F7CD /* Pods_Women_In_ComputingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73F8DB0540CECBF0FBFE268 /* Pods_Women_In_ComputingTests.framework */; };
+		5FDE6BA9267CB78D5DAE1B88 /* Pods_Women_In_Computing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701C7872744653CA3240D9C5 /* Pods_Women_In_Computing.framework */; };
+		7E5A7C4EC37CAA0687241E06 /* Pods_Women_In_ComputingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB75351FFE78BA3BBD087A6 /* Pods_Women_In_ComputingUITests.framework */; };
+		C6D78176217AA36200E3CA5E /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D78175217AA36200E3CA5E /* model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07BA19EC513EE711A90C80C6 /* Pods-Women In ComputingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women In ComputingUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Women In ComputingUITests/Pods-Women In ComputingUITests.release.xcconfig"; sourceTree = "<group>"; };
 		29CE7A4D216731E800050F60 /* LevelPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelPageViewController.swift; sourceTree = "<group>"; };
 		3F3614B92168097F00072997 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		3F43ECC52166B819007ABB36 /* Women In Computing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Women In Computing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +58,15 @@
 		3F43ECEA2166B819007ABB36 /* Women_In_ComputingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Women_In_ComputingUITests.swift; sourceTree = "<group>"; };
 		3F43ECEC2166B819007ABB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F43ECF82166C5E8007ABB36 /* FamousWomenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamousWomenTableViewController.swift; sourceTree = "<group>"; };
+		5DB75351FFE78BA3BBD087A6 /* Pods_Women_In_ComputingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Women_In_ComputingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		701C7872744653CA3240D9C5 /* Pods_Women_In_Computing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Women_In_Computing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFC1FEFAC6BCA61D7DCEEDD /* Pods-Women In ComputingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women In ComputingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Women In ComputingUITests/Pods-Women In ComputingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B7D9289BD4F9E877858A927 /* Pods-Women In ComputingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women In ComputingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Women In ComputingTests/Pods-Women In ComputingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A73F8DB0540CECBF0FBFE268 /* Pods_Women_In_ComputingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Women_In_ComputingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9AF84733ACC5A6D1274E99A /* Pods-Women In Computing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women In Computing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Women In Computing/Pods-Women In Computing.debug.xcconfig"; sourceTree = "<group>"; };
+		C6D78175217AA36200E3CA5E /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
+		E8CA621C59BBC74842F043C6 /* Pods-Women In Computing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women In Computing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Women In Computing/Pods-Women In Computing.release.xcconfig"; sourceTree = "<group>"; };
+		ECEDB476A165B63479F3BA33 /* Pods-Women In ComputingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women In ComputingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Women In ComputingTests/Pods-Women In ComputingTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FDE6BA9267CB78D5DAE1B88 /* Pods_Women_In_Computing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE10C1EEF521CFF6C69F7CD /* Pods_Women_In_ComputingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E5A7C4EC37CAA0687241E06 /* Pods_Women_In_ComputingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		011D4C29729FB88EECF7E482 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				701C7872744653CA3240D9C5 /* Pods_Women_In_Computing.framework */,
+				A73F8DB0540CECBF0FBFE268 /* Pods_Women_In_ComputingTests.framework */,
+				5DB75351FFE78BA3BBD087A6 /* Pods_Women_In_ComputingUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3F43ECBC2166B819007ABB36 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +114,8 @@
 				3F43ECDE2166B819007ABB36 /* Women In ComputingTests */,
 				3F43ECE92166B819007ABB36 /* Women In ComputingUITests */,
 				3F43ECC62166B819007ABB36 /* Products */,
+				9AB20B507933259BF4A62BE3 /* Pods */,
+				011D4C29729FB88EECF7E482 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +141,7 @@
 				3F43ECD62166B819007ABB36 /* Info.plist */,
 				3F43ECF82166C5E8007ABB36 /* FamousWomenTableViewController.swift */,
 				3F3614B92168097F00072997 /* SettingsViewController.swift */,
+				C6D78175217AA36200E3CA5E /* model.swift */,
 			);
 			path = "Women In Computing";
 			sourceTree = "<group>";
@@ -134,6 +164,19 @@
 			path = "Women In ComputingUITests";
 			sourceTree = "<group>";
 		};
+		9AB20B507933259BF4A62BE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9AF84733ACC5A6D1274E99A /* Pods-Women In Computing.debug.xcconfig */,
+				E8CA621C59BBC74842F043C6 /* Pods-Women In Computing.release.xcconfig */,
+				9B7D9289BD4F9E877858A927 /* Pods-Women In ComputingTests.debug.xcconfig */,
+				ECEDB476A165B63479F3BA33 /* Pods-Women In ComputingTests.release.xcconfig */,
+				7CFC1FEFAC6BCA61D7DCEEDD /* Pods-Women In ComputingUITests.debug.xcconfig */,
+				07BA19EC513EE711A90C80C6 /* Pods-Women In ComputingUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F43ECEF2166B819007ABB36 /* Build configuration list for PBXNativeTarget "Women In Computing" */;
 			buildPhases = (
+				BDF1E134512A8CFA45E1094E /* [CP] Check Pods Manifest.lock */,
 				3F43ECC12166B819007ABB36 /* Sources */,
 				3F43ECC22166B819007ABB36 /* Frameworks */,
 				3F43ECC32166B819007ABB36 /* Resources */,
+				A8455213001DD84B11CC003F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F43ECF22166B819007ABB36 /* Build configuration list for PBXNativeTarget "Women In ComputingTests" */;
 			buildPhases = (
+				04C4CF8A01A5F9A60098C4D8 /* [CP] Check Pods Manifest.lock */,
 				3F43ECD72166B819007ABB36 /* Sources */,
 				3F43ECD82166B819007ABB36 /* Frameworks */,
 				3F43ECD92166B819007ABB36 /* Resources */,
@@ -176,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F43ECF52166B819007ABB36 /* Build configuration list for PBXNativeTarget "Women In ComputingUITests" */;
 			buildPhases = (
+				FBB55BB084C111113B01239E /* [CP] Check Pods Manifest.lock */,
 				3F43ECE22166B819007ABB36 /* Sources */,
 				3F43ECE32166B819007ABB36 /* Frameworks */,
 				3F43ECE42166B819007ABB36 /* Resources */,
@@ -263,12 +310,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04C4CF8A01A5F9A60098C4D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Women In ComputingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8455213001DD84B11CC003F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Women In Computing/Pods-Women In Computing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Women In Computing/Pods-Women In Computing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDF1E134512A8CFA45E1094E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Women In Computing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBB55BB084C111113B01239E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Women In ComputingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3F43ECC12166B819007ABB36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				29CE7A4E216731E800050F60 /* LevelPageViewController.swift in Sources */,
+				C6D78176217AA36200E3CA5E /* model.swift in Sources */,
 				3F43ECC92166B819007ABB36 /* AppDelegate.swift in Sources */,
 				3F43ECCB2166B819007ABB36 /* GameViewController.swift in Sources */,
 				3F3614BA2168097F00072997 /* SettingsViewController.swift in Sources */,
@@ -436,6 +577,7 @@
 		};
 		3F43ECF02166B819007ABB36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9AF84733ACC5A6D1274E99A /* Pods-Women In Computing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -443,6 +585,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Women-In-Computing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods/Backendless/SDK/ios/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,6 +593,7 @@
 		};
 		3F43ECF12166B819007ABB36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8CA621C59BBC74842F043C6 /* Pods-Women In Computing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,6 +601,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Women-In-Computing";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pods/Backendless/SDK/ios/backendless/include/Backendless-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,6 +609,7 @@
 		};
 		3F43ECF32166B819007ABB36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B7D9289BD4F9E877858A927 /* Pods-Women In ComputingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +626,7 @@
 		};
 		3F43ECF42166B819007ABB36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECEDB476A165B63479F3BA33 /* Pods-Women In ComputingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,6 +643,7 @@
 		};
 		3F43ECF62166B819007ABB36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CFC1FEFAC6BCA61D7DCEEDD /* Pods-Women In ComputingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +659,7 @@
 		};
 		3F43ECF72166B819007ABB36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07BA19EC513EE711A90C80C6 /* Pods-Women In ComputingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
