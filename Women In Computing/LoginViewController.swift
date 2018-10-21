@@ -16,9 +16,12 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var userNameTF: UITextField!
     
     @IBOutlet weak var passwordTF: UITextField!
+    @IBOutlet weak var background: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!)
 
         // Do any additional setup after loading the view.
     }
