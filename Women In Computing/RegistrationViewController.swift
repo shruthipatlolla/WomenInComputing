@@ -87,7 +87,7 @@ class RegistrationViewController: UIViewController {
                 self.present(alert,  animated:  true,  completion:  nil)
             }
                 if(passwordTF!.text != confirmPasswordTF!.text){
-                    let  alert  =  UIAlertController(title:  "Alert",  message:  "Password unmatched",  preferredStyle:  .alert)
+                    let  alert  =  UIAlertController(title:  "Alert",  message:  "Password is unmatched",  preferredStyle:  .alert)
                     alert.addAction(UIAlertAction(title:  "OK",  style:  .default,  handler:  nil))
                     self.present(alert,  animated:  true,  completion:  nil)
                 }
@@ -130,7 +130,7 @@ class RegistrationViewController: UIViewController {
             print(passwordTF.text!)
             print(confirmPasswordTF.text!)
                 if(passwordTF.text! != confirmPasswordTF.text!){
-                    let  alert  =  UIAlertController(title:  "Alert",  message:  "Password Unmatched",  preferredStyle:  .alert)
+                    let  alert  =  UIAlertController(title:  "Alert",  message:  "Password is Unmatched",  preferredStyle:  .alert)
                     alert.addAction(UIAlertAction(title:  "OK",  style:  .default,  handler:  nil))
                     self.present(alert,  animated:  true,  completion:  nil)
                     return false;
