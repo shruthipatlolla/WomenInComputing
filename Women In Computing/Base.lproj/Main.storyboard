@@ -172,28 +172,24 @@
                                 <rect key="frame" x="0.0" y="0.0" width="386" height="812"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lives" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cc5-Y7-WAB">
-                                <rect key="frame" x="15" y="30" width="60" height="30"/>
+                                <rect key="frame" x="15" y="30" width="71" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="26"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="26"/>
+                                <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lives" translatesAutoresizingMaskIntoConstraints="NO" id="VaP-0w-3Nx">
-                                <rect key="frame" x="72" y="26" width="45" height="38"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Timer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlI-qa-SRk">
                                 <rect key="frame" x="153" y="30" width="69" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="26"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="26"/>
+                                <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coins" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKl-44-f2r">
                                 <rect key="frame" x="274" y="28" width="64" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="26"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="26"/>
+                                <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="coins" translatesAutoresizingMaskIntoConstraints="NO" id="3aV-eP-plb">
@@ -203,15 +199,15 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkt-4B-pX8">
                                 <rect key="frame" x="16" y="68" width="70" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="24"/>
+                                <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLx-zC-Ju2">
-                                <rect key="frame" x="168" y="66" width="39" height="32"/>
+                                <rect key="frame" x="172" y="66" width="37" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="24"/>
+                                <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFp-ya-KEk">
@@ -459,12 +455,16 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dl0-Qh-ozE">
-                                <rect key="frame" x="287" y="65" width="39" height="32"/>
+                                <rect key="frame" x="292" y="65" width="37" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="24"/>
+                                <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lives" translatesAutoresizingMaskIntoConstraints="NO" id="VaP-0w-3Nx">
+                                <rect key="frame" x="76" y="26" width="45" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -687,36 +687,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZC5-ad-sSD">
-                                <rect key="frame" x="16" y="123" width="112" height="28"/>
+                                <rect key="frame" x="16" y="125" width="112" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="28" id="Ygu-pX-c11"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
+                                <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Eu-O2-It5">
-                                <rect key="frame" x="16" y="210" width="112" height="21"/>
+                                <rect key="frame" x="16" y="209" width="112" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="wNq-Wa-1rm"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
+                                <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KkA-y0-l5I">
-                                <rect key="frame" x="16" y="239" width="343" height="30"/>
+                                <rect key="frame" x="16" y="238" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="82v-0l-Rbr">
-                                <rect key="frame" x="151" y="291" width="102" height="30"/>
+                                <rect key="frame" x="149" y="296" width="102" height="30"/>
                                 <color key="backgroundColor" cyan="0.82033962673611116" magenta="0.2595486111111111" yellow="0.19251844618055555" black="0.086419092465753425" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="2Xe-ge-fPl"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Login">
                                     <color key="titleColor" red="0.75951776650000002" green="0.69871464920000004" blue="0.082811969309999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -732,22 +732,22 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot Password ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kb8-Gt-Zt8">
-                                <rect key="frame" x="45" y="343" width="160" height="32"/>
+                                <rect key="frame" x="45" y="347" width="160" height="32"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="32" id="Al4-1M-tXF"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="160" id="TKa-Lw-JJg"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="18"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
+                                <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZ1-9m-Q3T">
-                                <rect key="frame" x="213" y="347" width="103" height="24"/>
+                                <rect key="frame" x="213" y="351" width="103" height="24"/>
                                 <color key="backgroundColor" cyan="0.81999999999999995" magenta="0.26000000000000001" yellow="0.19251844618055555" black="0.089999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="84" id="hm5-uR-qf6"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
                                 <state key="normal" title="Click Here">
                                     <color key="titleColor" red="0.75951776650000002" green="0.69871464920000004" blue="0.082811969309999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -762,15 +762,27 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email or User Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sGN-We-hoz">
-                                <rect key="frame" x="16" y="159" width="343" height="30"/>
+                                <rect key="frame" x="16" y="161" width="343" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" textContentType="username"/>
                             </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New User ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzP-yM-5TR">
+                                <rect key="frame" x="85" y="382" width="98" height="54"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
+                                <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Women In Computing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPv-df-vJu">
+                                <rect key="frame" x="27" y="58" width="321" height="44"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="31"/>
+                                <color key="textColor" red="0.96731228298611116" green="0.94175000245785512" blue="0.68281793152844461" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" cyan="0.20999999999999999" magenta="0.0" yellow="0.91000000000000003" black="0.02" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GGk-Lp-6Av">
-                                <rect key="frame" x="213" y="387" width="103" height="32"/>
+                                <rect key="frame" x="213" y="390" width="103" height="38"/>
                                 <color key="backgroundColor" cyan="0.81999999999999995" magenta="0.26000000000000001" yellow="0.1925184462" black="0.089999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
                                 <state key="normal" title="Sign up">
                                     <color key="titleColor" red="0.75951776650000002" green="0.69871464920000004" blue="0.082811969309999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -784,44 +796,32 @@
                                     <segue destination="aHC-TV-KRh" kind="show" id="lue-1c-d6e"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Women In Computing" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPv-df-vJu">
-                                <rect key="frame" x="27" y="72" width="321" height="25"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New User ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qzP-yM-5TR">
-                                <rect key="frame" x="87" y="379" width="98" height="48"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="18"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" cyan="0.61078559027777779" magenta="0.20640733506944445" yellow="0.56670464409722221" black="0.1112746147260274" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Kb8-Gt-Zt8" firstAttribute="top" secondItem="82v-0l-Rbr" secondAttribute="bottom" constant="22" id="0a6-Xq-Uys"/>
+                            <constraint firstItem="Kb8-Gt-Zt8" firstAttribute="top" secondItem="82v-0l-Rbr" secondAttribute="bottom" constant="21" id="0a6-Xq-Uys"/>
                             <constraint firstItem="8Eu-O2-It5" firstAttribute="trailing" secondItem="ZC5-ad-sSD" secondAttribute="trailing" id="0pY-hm-9BS"/>
                             <constraint firstItem="8Eu-O2-It5" firstAttribute="leading" secondItem="ZC5-ad-sSD" secondAttribute="leading" id="2qZ-6Y-b8g"/>
-                            <constraint firstItem="8Eu-O2-It5" firstAttribute="top" secondItem="sGN-We-hoz" secondAttribute="bottom" constant="21" id="4Nl-xj-cVA"/>
+                            <constraint firstItem="8Eu-O2-It5" firstAttribute="top" secondItem="sGN-We-hoz" secondAttribute="bottom" constant="18" id="4Nl-xj-cVA"/>
                             <constraint firstItem="3Ue-g4-xIg" firstAttribute="trailing" secondItem="CZ1-9m-Q3T" secondAttribute="trailing" constant="59" id="6JT-We-UUd"/>
                             <constraint firstItem="ZC5-ad-sSD" firstAttribute="leading" secondItem="des-4u-xhG" secondAttribute="leadingMargin" id="90Q-lR-gue"/>
                             <constraint firstItem="CZ1-9m-Q3T" firstAttribute="trailing" secondItem="GGk-Lp-6Av" secondAttribute="trailing" id="BLa-py-eV6"/>
-                            <constraint firstItem="jPv-df-vJu" firstAttribute="top" secondItem="3Ue-g4-xIg" secondAttribute="top" constant="28" id="D3U-aT-Cdv"/>
-                            <constraint firstItem="3Ue-g4-xIg" firstAttribute="trailing" secondItem="82v-0l-Rbr" secondAttribute="trailing" constant="122" id="DY5-XV-hrt"/>
+                            <constraint firstItem="jPv-df-vJu" firstAttribute="top" secondItem="3Ue-g4-xIg" secondAttribute="top" constant="14" id="D3U-aT-Cdv"/>
+                            <constraint firstItem="3Ue-g4-xIg" firstAttribute="trailing" secondItem="82v-0l-Rbr" secondAttribute="trailing" constant="124" id="DY5-XV-hrt"/>
                             <constraint firstItem="jPv-df-vJu" firstAttribute="centerX" secondItem="KkA-y0-l5I" secondAttribute="centerX" id="FAw-9R-Ipn"/>
-                            <constraint firstItem="qzP-yM-5TR" firstAttribute="leading" secondItem="3Ue-g4-xIg" secondAttribute="leading" constant="87" id="FPZ-Y2-gor"/>
-                            <constraint firstItem="ZC5-ad-sSD" firstAttribute="top" secondItem="jPv-df-vJu" secondAttribute="bottom" constant="26" id="H2p-kw-w3K"/>
+                            <constraint firstItem="qzP-yM-5TR" firstAttribute="leading" secondItem="3Ue-g4-xIg" secondAttribute="leading" constant="85" id="FPZ-Y2-gor"/>
+                            <constraint firstItem="ZC5-ad-sSD" firstAttribute="top" secondItem="jPv-df-vJu" secondAttribute="bottom" constant="23" id="H2p-kw-w3K"/>
                             <constraint firstItem="Kb8-Gt-Zt8" firstAttribute="leading" secondItem="3Ue-g4-xIg" secondAttribute="leading" constant="45" id="JCp-YG-DQX"/>
                             <constraint firstItem="CZ1-9m-Q3T" firstAttribute="leading" secondItem="Kb8-Gt-Zt8" secondAttribute="trailing" constant="8" symbolic="YES" id="Mz9-8A-YXc"/>
                             <constraint firstItem="sGN-We-hoz" firstAttribute="top" secondItem="ZC5-ad-sSD" secondAttribute="bottom" constant="8" symbolic="YES" id="N1M-0Z-V82"/>
-                            <constraint firstItem="82v-0l-Rbr" firstAttribute="leading" secondItem="3Ue-g4-xIg" secondAttribute="leading" constant="151" id="Pjg-hU-ycm"/>
-                            <constraint firstItem="GGk-Lp-6Av" firstAttribute="top" secondItem="CZ1-9m-Q3T" secondAttribute="bottom" constant="16" id="Q45-Cf-MaA"/>
+                            <constraint firstItem="82v-0l-Rbr" firstAttribute="leading" secondItem="3Ue-g4-xIg" secondAttribute="leading" constant="149" id="Pjg-hU-ycm"/>
+                            <constraint firstItem="GGk-Lp-6Av" firstAttribute="top" secondItem="CZ1-9m-Q3T" secondAttribute="bottom" constant="15" id="Q45-Cf-MaA"/>
                             <constraint firstItem="Kb8-Gt-Zt8" firstAttribute="centerY" secondItem="CZ1-9m-Q3T" secondAttribute="centerY" id="WBy-OY-6Iz"/>
-                            <constraint firstItem="82v-0l-Rbr" firstAttribute="top" secondItem="KkA-y0-l5I" secondAttribute="bottom" constant="22" id="WDB-Hh-BVq"/>
+                            <constraint firstItem="82v-0l-Rbr" firstAttribute="top" secondItem="KkA-y0-l5I" secondAttribute="bottom" constant="28" id="WDB-Hh-BVq"/>
                             <constraint firstItem="sGN-We-hoz" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="des-4u-xhG" secondAttribute="trailingMargin" id="bLO-Ua-fhW"/>
-                            <constraint firstItem="CZ1-9m-Q3T" firstAttribute="top" secondItem="82v-0l-Rbr" secondAttribute="bottom" constant="26" id="d7I-Sp-FsR"/>
-                            <constraint firstItem="GGk-Lp-6Av" firstAttribute="leading" secondItem="qzP-yM-5TR" secondAttribute="trailing" constant="28" id="ej0-pt-0uh"/>
-                            <constraint firstItem="qzP-yM-5TR" firstAttribute="top" secondItem="Kb8-Gt-Zt8" secondAttribute="bottom" constant="4" id="fGH-qg-XCe"/>
+                            <constraint firstItem="CZ1-9m-Q3T" firstAttribute="top" secondItem="82v-0l-Rbr" secondAttribute="bottom" constant="25" id="d7I-Sp-FsR"/>
+                            <constraint firstItem="GGk-Lp-6Av" firstAttribute="leading" secondItem="qzP-yM-5TR" secondAttribute="trailing" constant="30" id="ej0-pt-0uh"/>
+                            <constraint firstItem="qzP-yM-5TR" firstAttribute="top" secondItem="Kb8-Gt-Zt8" secondAttribute="bottom" constant="3" id="fGH-qg-XCe"/>
                             <constraint firstItem="jPv-df-vJu" firstAttribute="leading" secondItem="3Ue-g4-xIg" secondAttribute="leading" constant="27" id="h5i-jo-0It"/>
                             <constraint firstItem="CZ1-9m-Q3T" firstAttribute="leading" secondItem="GGk-Lp-6Av" secondAttribute="leading" id="hUY-GB-u02"/>
                             <constraint firstItem="KkA-y0-l5I" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="sGN-We-hoz" secondAttribute="trailing" id="j9u-5N-x6x"/>
@@ -870,27 +870,27 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N0i-kb-7Po">
-                                <rect key="frame" x="48" y="108" width="100" height="21"/>
+                                <rect key="frame" x="48" y="127" width="100" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="HUB-RM-Hri"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="20"/>
+                                <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter your Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kX0-OH-cXg">
-                                <rect key="frame" x="48" y="144" width="311" height="30"/>
+                                <rect key="frame" x="48" y="163" width="311" height="30"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LuH-uf-FjH">
-                                <rect key="frame" x="117" y="224" width="156" height="30"/>
+                                <rect key="frame" x="117" y="243" width="156" height="30"/>
                                 <color key="backgroundColor" cyan="0.81999999999999995" magenta="0.26000000000000001" yellow="0.1925184462" black="0.089999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="tLe-Xr-CWa"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Recover Password">
                                     <color key="titleColor" red="0.75951776650000002" green="0.69871464920000004" blue="0.082811969309999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -906,18 +906,18 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forgot Password ??" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIG-Nn-MqK">
-                                <rect key="frame" x="13" y="52" width="349" height="25"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="22"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="13" y="52" width="349" height="44"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="31"/>
+                                <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJg-lb-i1A">
-                                <rect key="frame" x="161" y="281" width="63" height="30"/>
+                                <rect key="frame" x="161" y="300" width="63" height="30"/>
                                 <color key="backgroundColor" cyan="0.81999999999999995" magenta="0.26000000000000001" yellow="0.1925184462" black="0.089999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="U67-mV-4eZ"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
                                 <state key="normal" title="Cancel">
                                     <color key="titleColor" red="0.75951776650000002" green="0.69871464920000004" blue="0.082811969309999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -969,82 +969,82 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Registration " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTn-LY-55l">
-                                <rect key="frame" x="16" y="44" width="343" height="26"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="23"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="16" y="44" width="343" height="44"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="31"/>
+                                <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ig5-FF-rik">
-                                <rect key="frame" x="31" y="87" width="83" height="20"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="18"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="31" y="105" width="83" height="25.666666666666657"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
+                                <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="First Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X1D-HA-OVa">
-                                <rect key="frame" x="31" y="127" width="98" height="30"/>
+                                <rect key="frame" x="30.999999999999993" y="150.66666666666666" width="104.33333333333331" height="30"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" textContentType="given-name"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Last Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="swQ-vB-u9N">
-                                <rect key="frame" x="166" y="127" width="133" height="30"/>
+                                <rect key="frame" x="172.33333333333334" y="150.66666666666666" width="126.66666666666666" height="30"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" textContentType="family-name"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gz-4x-0jx">
-                                <rect key="frame" x="31" y="165" width="83" height="21"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="31" y="188.66666666666666" width="83" height="21"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="17"/>
+                                <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dv1-Ha-3nx">
-                                <rect key="frame" x="31" y="194" width="284" height="30"/>
+                                <rect key="frame" x="31" y="217.66666666666666" width="284" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="It6-EX-g58"/>
                                 </constraints>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" textContentType="username"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JP3-Uf-Inh">
-                                <rect key="frame" x="31" y="268" width="284" height="30"/>
+                                <rect key="frame" x="31" y="297" width="284" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="mGR-Yb-RKR"/>
                                 </constraints>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                                <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Confirm Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hFr-iB-Eaa">
-                                <rect key="frame" x="31" y="344" width="284" height="30"/>
+                                <rect key="frame" x="31" y="378.33333333333331" width="284" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="mOD-Fv-nq5"/>
                                 </constraints>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="snh-lh-XCB">
-                                <rect key="frame" x="31" y="241" width="83" height="19"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="31" y="264.66666666666669" width="83" height="24.333333333333314"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="17"/>
+                                <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xax-wO-0ov">
-                                <rect key="frame" x="31" y="317" width="137" height="19"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <rect key="frame" x="31" y="346" width="142.66666666666666" height="24.333333333333314"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="17"/>
+                                <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KGn-Mg-Wzf">
-                                <rect key="frame" x="31" y="391" width="61" height="24"/>
+                                <rect key="frame" x="31" y="425.33333333333331" width="61" height="24"/>
                                 <color key="backgroundColor" cyan="0.81999999999999995" magenta="0.26000000000000001" yellow="0.1925184462" black="0.089999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="61" id="KtG-76-bwO"/>
                                     <constraint firstAttribute="height" constant="24" id="haJ-Si-Wgo"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="17"/>
                                 <state key="normal" title="Cancel">
                                     <color key="titleColor" red="0.75951776650000002" green="0.69871464920000004" blue="0.082811969309999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -1059,13 +1059,13 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8k-vH-38W">
-                                <rect key="frame" x="193" y="390" width="122" height="24"/>
+                                <rect key="frame" x="193" y="424.33333333333331" width="122" height="24"/>
                                 <color key="backgroundColor" cyan="0.81999999999999995" magenta="0.26000000000000001" yellow="0.1925184462" black="0.089999999999999997" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="0fT-9r-dLG"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="122" id="iU8-Rn-Cxh"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="17"/>
                                 <state key="normal" title="Register">
                                     <color key="titleColor" red="0.75951776650000002" green="0.69871464920000004" blue="0.082811969309999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>

@@ -17,7 +17,7 @@ class FamousWomenTableViewController: UITableViewController {
     let descp = ["Maxres was one of the original programmers for the ENIAC computer. She studied mathematics in school then began manually calculating ballistics trajectories", "Edith Clarke was the first female electrical engineer at the University of Texas at Austin. She specialized in electrical power system analysis.", "Grace Brewster Murray Hopper was an American computer scientist. she was a pioneer of computer programming"]
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!)
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.jpg")!)
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
