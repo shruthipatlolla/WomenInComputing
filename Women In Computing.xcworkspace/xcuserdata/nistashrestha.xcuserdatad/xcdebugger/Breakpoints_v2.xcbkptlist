@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Women In Computing/AppDelegate.swift"
+            timestampString = "561857155.236393"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Women_In_Computing.AppDelegate.__allocating_init() -&gt; Women_In_Computing.AppDelegate"
+                  moduleName = "Women In Computing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nistashrestha/Documents/womenincomputing/Women%20In%20Computing/AppDelegate.swift"
+                  timestampString = "561846001.814326"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Women_In_Computing.AppDelegate.init() -&gt; Women_In_Computing.AppDelegate"
+                  moduleName = "Women In Computing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nistashrestha/Documents/womenincomputing/Women%20In%20Computing/AppDelegate.swift"
+                  timestampString = "561846001.817036"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Women_In_Computing.AppDelegate.__deallocating_deinit"
+                  moduleName = "Women In Computing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nistashrestha/Documents/womenincomputing/Women%20In%20Computing/AppDelegate.swift"
+                  timestampString = "561846001.82047"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "Women In Computing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nistashrestha/Documents/womenincomputing/Women%20In%20Computing/AppDelegate.swift"
+                  timestampString = "561846001.8234479"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
