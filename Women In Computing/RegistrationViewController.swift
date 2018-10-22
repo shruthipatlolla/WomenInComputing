@@ -50,6 +50,9 @@ class RegistrationViewController: UIViewController {
         let emailTest = NSPredicate(format:"SELF MATCHES %@", emailRegEx)
         return emailTest.evaluate(with: testStr)
     }
+    func isValidPassword(testStr:String) -> Bool{
+        return testStr.count >= 8
+    }
     
     /*
     // MARK: - Navigation
@@ -61,19 +64,34 @@ class RegistrationViewController: UIViewController {
         // Pass the selected object to the new view controller.
         if segue.identifier == "register"{
             let user = User(name: firstNameTF.text! + lastNameTF.text!, email: emailTF.text!, password: passwordTF.text!)
-            if(!isValidEmail(testStr: emailTF.text!)){
+            
                 if firstNameTF.text!.isEmpty || lastNameTF.text!.isEmpty {
                     //Disable button
                     let  alert  =  UIAlertController(title:  "Alert",  message:  "Enter the details properly",  preferredStyle:  .alert)
                     alert.addAction(UIAlertAction(title:  "OK",  style:  .default,  handler:  nil))
                     self.present(alert,  animated:  true,  completion:  nil)
                 }
-                else{
+                if (!isValidEmail(testStr: emailTF.text!)){
+                    print("email")
                     let  alert  =  UIAlertController(title:  "Alert",  message:  "Enter the correct email id",  preferredStyle:  .alert)
                     alert.addAction(UIAlertAction(title:  "OK",  style:  .default,  handler:  nil))
                     self.present(alert,  animated:  true,  completion:  nil)
+                    
                 }
+                print(passwordTF.text!)
+                print(confirmPasswordTF.text!)
+            if(!isValidPassword(testStr: passwordTF.text!)){
+                print("email")
+                let  alert  =  UIAlertController(title:  "Alert",  message:  "Enter Password of length more than 8",  preferredStyle:  .alert)
+                alert.addAction(UIAlertAction(title:  "OK",  style:  .default,  handler:  nil))
+                self.present(alert,  animated:  true,  completion:  nil)
             }
+                if(passwordTF!.text != confirmPasswordTF!.text){
+                    let  alert  =  UIAlertController(title:  "Alert",  message:  "Password unmatched",  preferredStyle:  .alert)
+                    alert.addAction(UIAlertAction(title:  "OK",  style:  .default,  handler:  nil))
+                    self.present(alert,  animated:  true,  completion:  nil)
+                }
+            
             else{
                 Users.users.addUser(user)
                 display(title: "Success", msg: "Registered successfully" )
@@ -83,28 +101,43 @@ class RegistrationViewController: UIViewController {
     }
     
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        if identifier == "register" {
             print("In can")
             let user = User(name: firstNameTF.text! + lastNameTF.text!, email: emailTF.text!, password: passwordTF.text!)
-            if(!isValidEmail(testStr: emailTF.text!)){
+        
                 print("in valid email")
-                if firstNameTF.text!.isEmpty || lastNameTF.text!.isEmpty {
+                if firstNameTF.text!.isEmpty || lastNameTF.text!.isEmpty || passwordTF.text!.isEmpty || confirmPasswordTF.text!.isEmpty {
                     print("fname")
                     //Disable button
-                    let  alert  =  UIAlertController(title:  "Alert",  message:  "Enter the details properly",  preferredStyle:  .alert)
+                    let  alert  =  UIAlertController(title:  "Alert",  message:  "Missing details",  preferredStyle:  .alert)
                     alert.addAction(UIAlertAction(title:  "OK",  style:  .default,  handler:  nil))
                     self.present(alert,  animated:  true,  completion:  nil)
                     return false;
                 }
-                else{
+                if (!isValidEmail(testStr: emailTF.text!)){
                     print("email")
                     let  alert  =  UIAlertController(title:  "Alert",  message:  "Enter the correct email id",  preferredStyle:  .alert)
                     alert.addAction(UIAlertAction(title:  "OK",  style:  .default,  handler:  nil))
                     self.present(alert,  animated:  true,  completion:  nil)
                     return false;
                 }
+            if(!isValidPassword(testStr: passwordTF.text!)){
+                print("email")
+                let  alert  =  UIAlertController(title:  "Alert",  message:  "Enter Password of length more than 8",  preferredStyle:  .alert)
+                alert.addAction(UIAlertAction(title:  "OK",  style:  .default,  handler:  nil))
+                self.present(alert,  animated:  true,  completion:  nil)
             }
-            
+            print(passwordTF.text!)
+            print(confirmPasswordTF.text!)
+                if(passwordTF.text! != confirmPasswordTF.text!){
+                    let  alert  =  UIAlertController(title:  "Alert",  message:  "Password Unmatched",  preferredStyle:  .alert)
+                    alert.addAction(UIAlertAction(title:  "OK",  style:  .default,  handler:  nil))
+                    self.present(alert,  animated:  true,  completion:  nil)
+                    return false;
+                }
         
+            
+        }
         return true;
     }
     
