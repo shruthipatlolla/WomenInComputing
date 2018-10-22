@@ -85,10 +85,10 @@ class RegistrationViewController: UIViewController {
     }
     
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
-            //print("In can")
+            print("In can")
             let user = User(name: firstNameTF.text! + lastNameTF.text!, email: emailTF.text!, password: passwordTF.text!)
             if(!isValidEmail(testStr: emailTF.text!)){
-                //print("in valid email")
+                print("in valid email")
                 if firstNameTF.text!.isEmpty || lastNameTF.text!.isEmpty {
                     //print("fname")
                     //Disable button
