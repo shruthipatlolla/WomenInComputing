@@ -11,14 +11,19 @@ import UIKit
 class FamousWomenTableViewController: UITableViewController {
 
     
-
-    let names = ["Maxres", "Edith Clarke", "Grace Hopper"]
-    let images = [#imageLiteral(resourceName: "maxresdefault"),#imageLiteral(resourceName: "68065028_134808027444"),#imageLiteral(resourceName: "Grace")]
-    let descp = ["Maxres was one of the original programmers for the ENIAC computer. She studied mathematics in school then began manually calculating ballistics trajectories", "Edith Clarke was the first female electrical engineer at the University of Texas at Austin. She specialized in electrical power system analysis.", "Grace Brewster Murray Hopper was an American computer scientist. she was a pioneer of computer programming"]
+let backendless = Backendless.sharedInstance()!
+    var womenDataStore:IDataStore!
+    var allWomen:[Women] = []
+    
+    //let names = ["Maxres", "Edith Clarke", "Grace Hopper"]
+    var images = [#imageLiteral(resourceName: "maxresdefault"),#imageLiteral(resourceName: "68065028_134808027444"),#imageLiteral(resourceName: "Grace")]
+    //let descp = ["Maxres was one of the original programmers for the ENIAC computer. She studied mathematics in school then began manually calculating ballistics trajectories", "Edith Clarke was the first female electrical engineer at the University of Texas at Austin. She specialized in electrical power system analysis.", "Grace Brewster Murray Hopper was an American computer scientist. she was a pioneer of computer programming"]
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.jpg")!)
-
+      womenDataStore = backendless.data.of(Women.self)
+        allWomen = self.womenDataStore.find() as! [Women]
+        print(allWomen.count)
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -40,7 +45,7 @@ class FamousWomenTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return names.count
+        return allWomen.count
     }
 
     
@@ -51,8 +56,8 @@ class FamousWomenTableViewController: UITableViewController {
         let desc = tableView.viewWithTag(300) as! UITextView!
         
         image?.image = images[indexPath.row]
-        name?.text = names[indexPath.row]
-        desc?.text = descp[indexPath.row]
+        name?.text = allWomen[indexPath.row].name
+        desc?.text = allWomen[indexPath.row].imageDescription
 
 
         // Configure the cell...
