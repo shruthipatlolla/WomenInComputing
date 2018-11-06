@@ -24,7 +24,7 @@
 		4AE10C1EEF521CFF6C69F7CD /* Pods_Women_In_ComputingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73F8DB0540CECBF0FBFE268 /* Pods_Women_In_ComputingTests.framework */; };
 		5FDE6BA9267CB78D5DAE1B88 /* Pods_Women_In_Computing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701C7872744653CA3240D9C5 /* Pods_Women_In_Computing.framework */; };
 		7E5A7C4EC37CAA0687241E06 /* Pods_Women_In_ComputingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB75351FFE78BA3BBD087A6 /* Pods_Women_In_ComputingUITests.framework */; };
-		C6D78176217AA36200E3CA5E /* Women.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D78175217AA36200E3CA5E /* Women.swift */; };
+		C6D78176217AA36200E3CA5E /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D78175217AA36200E3CA5E /* model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +72,7 @@
 		9B7D9289BD4F9E877858A927 /* Pods-Women In ComputingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women In ComputingTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Women In ComputingTests/Pods-Women In ComputingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A73F8DB0540CECBF0FBFE268 /* Pods_Women_In_ComputingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Women_In_ComputingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9AF84733ACC5A6D1274E99A /* Pods-Women In Computing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women In Computing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Women In Computing/Pods-Women In Computing.debug.xcconfig"; sourceTree = "<group>"; };
-		C6D78175217AA36200E3CA5E /* Women.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Women.swift; sourceTree = "<group>"; };
+		C6D78175217AA36200E3CA5E /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 		E8CA621C59BBC74842F043C6 /* Pods-Women In Computing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women In Computing.release.xcconfig"; path = "Pods/Target Support Files/Pods-Women In Computing/Pods-Women In Computing.release.xcconfig"; sourceTree = "<group>"; };
 		ECEDB476A165B63479F3BA33 /* Pods-Women In ComputingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women In ComputingTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Women In ComputingTests/Pods-Women In ComputingTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -151,7 +151,7 @@
 				3F43ECD62166B819007ABB36 /* Info.plist */,
 				3F43ECF82166C5E8007ABB36 /* FamousWomenTableViewController.swift */,
 				3F3614B92168097F00072997 /* SettingsViewController.swift */,
-				C6D78175217AA36200E3CA5E /* Women.swift */,
+				C6D78175217AA36200E3CA5E /* model.swift */,
 				1609BB9A217B053A00B88AC2 /* LoginViewController.swift */,
 				1609BBA0217B1E3C00B88AC2 /* ForgotPasswordViewController.swift */,
 			);
@@ -424,7 +424,7 @@
 				29CE7A4E216731E800050F60 /* LevelPageViewController.swift in Sources */,
 				1609BB9D217B0A0F00B88AC2 /* UserModel.swift in Sources */,
 				1609BB9F217B123B00B88AC2 /* RegistrationViewController.swift in Sources */,
-				C6D78176217AA36200E3CA5E /* Women.swift in Sources */,
+				C6D78176217AA36200E3CA5E /* model.swift in Sources */,
 				3F43ECC92166B819007ABB36 /* AppDelegate.swift in Sources */,
 				1609BBA1217B1E3C00B88AC2 /* ForgotPasswordViewController.swift in Sources */,
 				3F43ECCB2166B819007ABB36 /* GameViewController.swift in Sources */,
