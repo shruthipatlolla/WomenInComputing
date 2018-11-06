@@ -10,6 +10,8 @@ import UIKit
 
 class LevelPageViewController: UIViewController {
     
+    @IBAction func onGo(segue:UIStoryboardSegue){}
+    
     @IBOutlet weak var livesLbl: UILabel!
     
     @IBOutlet weak var livesvalue: UILabel!

@@ -24,8 +24,8 @@ class GameViewController: UIViewController {
     }
 
     @IBAction func onGo(_ sender: Any) {
-        let levelVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "levelPage") as! LevelPageViewController
-        self.present(levelVC, animated: true, completion: nil)
+        //let levelVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "levelPage") as! LevelPageViewController
+        //self.present(levelVC, animated: true, completion: nil)
     }
     
 }
