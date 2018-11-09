@@ -15,13 +15,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let API_KEY = "FEF58B24-0F69-644C-FF56-2746050A7200"
     
     var backendless = Backendless.sharedInstance()!
+    var  womenDataStore:IDataStore!
     
     var window: UIWindow?
     
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
         backendless.initApp(APP_ID,  apiKey:API_KEY)
-        // Override point for customization after application launch.
+        womenDataStore =  backendless.data.of(Women.self)
+        Women.women.setWomenList(womenList: self.womenDataStore.find() as! [Women])
+        
         return true
     }
 
