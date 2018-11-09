@@ -10,18 +10,17 @@ import UIKit
 
 class FamousWomenTableViewController: UITableViewController {
     
-    let backendless = Backendless.sharedInstance()!
-    var  womenDataStore:IDataStore!
+    //let backendless = Backendless.sharedInstance()!
+    //var  womenDataStore:IDataStore!
     var allWomen:[Women] = []
-    
-    var images = [#imageLiteral(resourceName: "maxresdefault"),#imageLiteral(resourceName: "68065028_134808027444"),#imageLiteral(resourceName: "Grace")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.jpg")!)
         
-        womenDataStore =  backendless.data.of(Women.self)
-        allWomen = self.womenDataStore.find() as! [Women]
+        
+        //Women.women.setWomenList(womenList: self.womenDataStore.find() as! [Women])
+        allWomen = Women.women.getAllWomenList()
         print(allWomen.count)
         
         // Uncomment the following line to preserve selection between presentations
@@ -55,7 +54,7 @@ class FamousWomenTableViewController: UITableViewController {
         let name = tableView.viewWithTag(200) as! UILabel!
         let desc = tableView.viewWithTag(300) as! UITextView!
         
-        image?.image = images[indexPath.row]
+        image?.image = UIImage(named: Women.women.images[indexPath.row]) //images[indexPath.row]
         name?.text = allWomen[indexPath.row].name
         desc?.text = allWomen[indexPath.row].imageDescription
         
