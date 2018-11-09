@@ -10,15 +10,8 @@ import Foundation
 
 @objcMembers
 class Women : NSObject{
-    
-    static var women:Women = Women()
-    
     var imageDescription:String
     var  name:String
-    var images = ["maxresdefault.jpg", "68065028_134808027444.jpg", "Grace.jpg"]
-
-    
-    private var womenList:[Women] = []
     
     override var  description:  String  {
         //  NSObject  adheres  to  CustomStringConvertible
@@ -33,14 +26,6 @@ class Women : NSObject{
     convenience override init(){
         self.init(description:"", name:"")
         
-    }
-    
-    func setWomenList(womenList:[Women]) {
-        self.womenList = womenList
-    }
-    
-    func getAllWomenList() -> [Women] {
-        return womenList
     }
     
 }
