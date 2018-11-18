@@ -10,6 +10,7 @@ import UIKit
 
 class FamousWomenTableViewController: UITableViewController {
     
+    static var famousWomenTVC:FamousWomenTableViewController = FamousWomenTableViewController()
     //let backendless = Backendless.sharedInstance()!
     //var  womenDataStore:IDataStore!
     var allWomen:[Women] = []
@@ -36,8 +37,9 @@ class FamousWomenTableViewController: UITableViewController {
         let aPath = mainBundle.path(forResource: "WomenInComputing", ofType: "txt")
         let content = try? Data(contentsOf: URL(fileURLWithPath: aPath!))
         let decoder = JSONDecoder()
-        allWomen = try! decoder.decode([Women].self, from: content!)
-        for women in allWomen {
+        self.allWomen = try! decoder.decode([Women].self, from: content!)
+        AllWomen.allWomen.setWomenList(womenList: self.allWomen)
+        for women in self.allWomen {
             print(women)
         }
     }

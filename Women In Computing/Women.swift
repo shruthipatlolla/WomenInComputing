@@ -56,3 +56,18 @@ class Women : NSObject, Decodable{
     
     
 }
+
+struct AllWomen {
+    
+    static var allWomen:AllWomen = AllWomen()
+    var womenList:[Women] = []
+    
+    mutating func setWomenList(womenList:[Women]) {
+        self.womenList = womenList
+    }
+    
+    func getAllWomenList() -> [Women] {
+        return womenList
+    }
+
+}

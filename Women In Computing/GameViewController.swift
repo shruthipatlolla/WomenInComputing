@@ -19,7 +19,8 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     var randomNumber = 0
     var randomNumbersList:[Int] = []
     
-    //var womenList = Women.women.getAllWomenList()
+    let womenList = AllWomen.allWomen.getAllWomenList()
+   
     var answerList:[String] = []
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,15 +31,13 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     
     override func viewWillAppear(_ animated: Bool) {
         randomNumber = generateRandomNumber()
-        
-       /* womenDescLBL.text = womenList[randomNumber].imageDescription
-       // womenImage.image = UIImage(named: Women.women.images[randomNumber])
-        
-        var otherOptions = uniqueRandoms(numberOfRandoms: 2, maxNum: 3, blackList: randomNumber)
+        womenDescLBL.text = womenList[randomNumber].imageDescription
+       womenImage.image = UIImage(named: womenList[randomNumber].image)
         answerList = []
+        var otherOptions = uniqueRandoms(numberOfRandoms: 2, maxNum: 3, blackList: randomNumber)
         answerList.append(womenList[randomNumber].name)
         answerList.append(womenList[otherOptions[0]].name)
-        answerList.append(womenList[otherOptions[1]].name) */
+        answerList.append(womenList[otherOptions[1]].name)
         answerDropdown.delegate = self;
         
         
@@ -87,7 +86,7 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     func generateRandomNumber() -> Int {
         var randomNumber = -1
         repeat {
-            randomNumber = Int(arc4random_uniform(3))
+            randomNumber = Int(arc4random_uniform(2))
         } while randomNumbersList.contains(randomNumber)
         randomNumbersList.append(randomNumber)
         print(randomNumber)
@@ -112,7 +111,7 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     }
    
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
-        if(randomNumbersList.count < 3){
+        if(randomNumbersList.count < 2){
             viewWillAppear(true)
             return false
         }
