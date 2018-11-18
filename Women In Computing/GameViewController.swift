@@ -32,7 +32,7 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     override func viewWillAppear(_ animated: Bool) {
         randomNumber = generateRandomNumber()
         womenDescLBL.text = womenList[randomNumber].imageDescription
-       womenImage.image = UIImage(named: womenList[randomNumber].image)
+        womenImage.image = UIImage(named: womenList[randomNumber].image)
         answerList = []
         var otherOptions = uniqueRandoms(numberOfRandoms: 2, maxNum: 3, blackList: randomNumber)
         answerList.append(womenList[randomNumber].name)

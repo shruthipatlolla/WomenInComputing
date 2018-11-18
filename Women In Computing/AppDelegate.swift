@@ -15,7 +15,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let API_KEY = "FEF58B24-0F69-644C-FF56-2746050A7200"
     
     var backendless = Backendless.sharedInstance()!
-    var  womenDataStore:IDataStore!
     
     var window: UIWindow?
     
@@ -23,13 +22,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
         backendless.initApp(APP_ID,  apiKey:API_KEY)
-        womenDataStore =  backendless.data.of(Women.self)
-        //Women.women.setWomenList(womenList: self.womenDataStore.find() as! [Women])
-        
-        //let womenTest:Women = womenDataStore.find(byId: "8B681D71-8BC0-F2F6-FFFF-F722549D8F00") as! Women
-        //print("########################")
-        //print(womenTest)
-        
         return true
     }
 

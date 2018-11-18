@@ -18,21 +18,10 @@ class FamousWomenTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.jpg")!)
-        demoMainBundle()
-        
-        //Women.women.setWomenList(womenList: self.womenDataStore.find() as! [Women])
-        //allWomen = Women.women.getAllWomenList()
-        //print(allWomen.count)
-        
-        //NotificationCenter.default.addObserver(self,  selector:  #selector(dataFetched),                                                                                          //name:  .dataFetched,  object:  nil)
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-        
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        retrieveDataFromJSON()
     }
     
-    func demoMainBundle(){
+    func retrieveDataFromJSON(){
         let mainBundle = Bundle.main
         let aPath = mainBundle.path(forResource: "WomenInComputing", ofType: "txt")
         let content = try? Data(contentsOf: URL(fileURLWithPath: aPath!))
@@ -74,13 +63,6 @@ class FamousWomenTableViewController: UITableViewController {
         image?.image = UIImage(named: allWomen[indexPath.row].image)
         name?.text = allWomen[indexPath.row].name
         desc?.text = allWomen[indexPath.row].imageDescription
-        
-        /*name?.text = names[indexPath.row]
-         desc?.text = descp[indexPath.row]*/
-        
-        
-        // Configure the cell...
-        
         return cell
     }
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
