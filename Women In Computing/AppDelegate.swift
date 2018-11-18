@@ -24,7 +24,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         backendless.initApp(APP_ID,  apiKey:API_KEY)
         womenDataStore =  backendless.data.of(Women.self)
-        Women.women.setWomenList(womenList: self.womenDataStore.find() as! [Women])
+        //Women.women.setWomenList(womenList: self.womenDataStore.find() as! [Women])
+        
+        //let womenTest:Women = womenDataStore.find(byId: "8B681D71-8BC0-F2F6-FFFF-F722549D8F00") as! Women
+        //print("########################")
+        //print(womenTest)
         
         return true
     }

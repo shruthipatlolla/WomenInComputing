@@ -17,12 +17,13 @@ class FamousWomenTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.jpg")!)
-        
+        demoMainBundle()
         
         //Women.women.setWomenList(womenList: self.womenDataStore.find() as! [Women])
-        allWomen = Women.women.getAllWomenList()
-        print(allWomen.count)
+        //allWomen = Women.women.getAllWomenList()
+        //print(allWomen.count)
         
+        //NotificationCenter.default.addObserver(self,  selector:  #selector(dataFetched),                                                                                          //name:  .dataFetched,  object:  nil)
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
         
@@ -30,6 +31,20 @@ class FamousWomenTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
     
+    func demoMainBundle(){
+        let mainBundle = Bundle.main
+        let aPath = mainBundle.path(forResource: "WomenInComputing", ofType: "txt")
+        let content = try? Data(contentsOf: URL(fileURLWithPath: aPath!))
+        let decoder = JSONDecoder()
+        allWomen = try! decoder.decode([Women].self, from: content!)
+        for women in allWomen {
+            print(women)
+        }
+    }
+    
+    @objc func dataFetched() {
+        tableView.reloadData()
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -54,7 +69,7 @@ class FamousWomenTableViewController: UITableViewController {
         let name = tableView.viewWithTag(200) as! UILabel!
         let desc = tableView.viewWithTag(300) as! UITextView!
         
-        image?.image = UIImage(named: Women.women.images[indexPath.row]) //images[indexPath.row]
+        image?.image = UIImage(named: allWomen[indexPath.row].image)
         name?.text = allWomen[indexPath.row].name
         desc?.text = allWomen[indexPath.row].imageDescription
         

@@ -12,6 +12,7 @@
 		1609BB9D217B0A0F00B88AC2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609BB9C217B0A0F00B88AC2 /* UserModel.swift */; };
 		1609BB9F217B123B00B88AC2 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609BB9E217B123B00B88AC2 /* RegistrationViewController.swift */; };
 		1609BBA1217B1E3C00B88AC2 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609BBA0217B1E3C00B88AC2 /* ForgotPasswordViewController.swift */; };
+		1678E2C921A2172100436FD9 /* WomenInComputing.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1678E2C821A2172100436FD9 /* WomenInComputing.txt */; };
 		29CE7A4E216731E800050F60 /* LevelPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CE7A4D216731E800050F60 /* LevelPageViewController.swift */; };
 		3F3614BA2168097F00072997 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3614B92168097F00072997 /* SettingsViewController.swift */; };
 		3F43ECC92166B819007ABB36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43ECC82166B819007ABB36 /* AppDelegate.swift */; };
@@ -51,6 +52,7 @@
 		1609BB9C217B0A0F00B88AC2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		1609BB9E217B123B00B88AC2 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		1609BBA0217B1E3C00B88AC2 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		1678E2C821A2172100436FD9 /* WomenInComputing.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WomenInComputing.txt; sourceTree = "<group>"; };
 		29CE7A4D216731E800050F60 /* LevelPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelPageViewController.swift; sourceTree = "<group>"; };
 		3F3614B92168097F00072997 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		3F43ECC52166B819007ABB36 /* Women In Computing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Women In Computing.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -140,6 +142,7 @@
 		3F43ECC72166B819007ABB36 /* Women In Computing */ = {
 			isa = PBXGroup;
 			children = (
+				1678E2C821A2172100436FD9 /* WomenInComputing.txt */,
 				3F43ECC82166B819007ABB36 /* AppDelegate.swift */,
 				3F43ECCA2166B819007ABB36 /* GameViewController.swift */,
 				3F43ECCE2166B819007ABB36 /* Main.storyboard */,
@@ -301,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F43ECD52166B819007ABB36 /* LaunchScreen.storyboard in Resources */,
+				1678E2C921A2172100436FD9 /* WomenInComputing.txt in Resources */,
 				3F43ECD22166B819007ABB36 /* Assets.xcassets in Resources */,
 				3F43ECD02166B819007ABB36 /* Main.storyboard in Resources */,
 			);

@@ -19,7 +19,7 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     var randomNumber = 0
     var randomNumbersList:[Int] = []
     
-    var womenList = Women.women.getAllWomenList()
+    //var womenList = Women.women.getAllWomenList()
     var answerList:[String] = []
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,14 +31,14 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     override func viewWillAppear(_ animated: Bool) {
         randomNumber = generateRandomNumber()
         
-        womenDescLBL.text = womenList[randomNumber].imageDescription
-        womenImage.image = UIImage(named: Women.women.images[randomNumber])
+       /* womenDescLBL.text = womenList[randomNumber].imageDescription
+       // womenImage.image = UIImage(named: Women.women.images[randomNumber])
         
         var otherOptions = uniqueRandoms(numberOfRandoms: 2, maxNum: 3, blackList: randomNumber)
         answerList = []
         answerList.append(womenList[randomNumber].name)
         answerList.append(womenList[otherOptions[0]].name)
-        answerList.append(womenList[otherOptions[1]].name)
+        answerList.append(womenList[otherOptions[1]].name) */
         answerDropdown.delegate = self;
         
         

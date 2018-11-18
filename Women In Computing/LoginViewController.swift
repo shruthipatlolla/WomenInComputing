@@ -10,6 +10,7 @@ import UIKit
 
 class LoginViewController: UIViewController {
 
+    @IBOutlet weak var womenIV: UIImageView!
     @IBAction func register(segue:UIStoryboardSegue){}
     @IBAction func cancel(segue:UIStoryboardSegue){}
     
@@ -22,9 +23,29 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.jpg")!)
-
+        
+        //getImages()
         // Do any additional setup after loading the view.
     }
+    
+    func getImages(){
+        let urlSession = URLSession.shared
+        let url = URL(string: "https://api.backendless.com/BE684B7E-3E46-F431-FF2A-6D85608A5000/console/knjdepgsvtatfibointuddautdcnkpekegxd/files/view/maxresdefault.jpg")
+        urlSession.downloadTask(with: url!) { localURL, urlResponse, error in
+            if let localURL = localURL {
+                if let string = try? String(contentsOf: localURL) {
+                    //womenIV.image = UIImage(
+                    print(string)
+                }
+            }
+        }.resume()
+        
+
+    }
+    
+    /*func addImages(data:Data?,  urlResponse:URLResponse?,  error:Error?){
+        Women.women.addImages(image:UIImage(data: data!)!)
+    }*/
     
     func display(title:String, msg:String) {
         let alert = UIAlertController(title: title, message: msg, preferredStyle: .alert)
@@ -45,6 +66,10 @@ class LoginViewController: UIViewController {
         if let userName = userNameTF.text , let password = passwordTF.text, !userName.isEmpty, !password.isEmpty {
             if !Users.users.isValid(userName: userName, password: password) {
                 display(title: "Invalid Details", msg: "Please enter correct ID and password")
+                
+            }
+            else{
+                
             }
         } else {
             display(title: "Enter Details", msg: "Please enter the user name and password")
@@ -58,4 +83,9 @@ class LoginViewController: UIViewController {
     
     
 
+}
+
+extension Notification.Name  {
+    static let  dataFetched = Notification.Name("dataFetched")
+    
 }

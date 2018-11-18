@@ -680,7 +680,7 @@
                                 <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KkA-y0-l5I">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="testuser" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KkA-y0-l5I">
                                 <rect key="frame" x="16" y="241" width="343" height="33"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
@@ -737,7 +737,7 @@
                                     <segue destination="Wj0-D8-3Xp" kind="show" identifier="forgotPassword" id="bO6-hJ-gOF"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email or User Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sGN-We-hoz">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="testuser@gmail.com" borderStyle="roundedRect" placeholder="Email or User Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sGN-We-hoz">
                                 <rect key="frame" x="16" y="161" width="343" height="33"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
@@ -772,6 +772,10 @@
                                     <segue destination="aHC-TV-KRh" kind="show" id="lue-1c-d6e"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7gH-7R-Mlz">
+                                <rect key="frame" x="80" y="557" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" cyan="0.61078559027777779" magenta="0.20640733506944445" yellow="0.56670464409722221" black="0.1112746147260274" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                         <constraints>
@@ -812,6 +816,7 @@
                     <connections>
                         <outlet property="passwordTF" destination="KkA-y0-l5I" id="dC2-sl-kPP"/>
                         <outlet property="userNameTF" destination="sGN-We-hoz" id="Bsx-oe-AaD"/>
+                        <outlet property="womenIV" destination="7gH-7R-Mlz" id="AN2-Zd-Bgf"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TiL-Hd-KGc" userLabel="First Responder" sceneMemberID="firstResponder"/>
