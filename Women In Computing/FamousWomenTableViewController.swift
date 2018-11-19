@@ -31,6 +31,9 @@ class FamousWomenTableViewController: UITableViewController {
         for women in self.allWomen {
             print(women)
         }
+//        catch{
+////            print(errors)
+//        }
     }
     
     @objc func dataFetched() {

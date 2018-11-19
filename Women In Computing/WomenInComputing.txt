@@ -1,3 +1,17 @@
-[{"name":"Planet Sub","imageDescription":"test","image":"maxresdefault.jpg"},
-{"name":"Subway","imageDescription":"test","image":"Grace.jpg"},
-{"name":"Subway","imageDescription":"test","image":"68065028_134808027444.jpg"}]
+
+
+[{"name":"Cristina Amon","imageDescription":"Univ. of Toronto Dean - Faculty of Applied Science & Engineering. Known for: contrbutions to thermal techniques for wearable computers and portable   electronics.","image":"amon-cristina.jpg"},
+{"name":"Betsy Ancker-Johnson","imageDescription":"Fellow AAAS. Known for: 1st observation of microwave emission witout the presence of an external field (1967).","image":"ancker-johnson_betsy_a4.jpg"},
+{"name":"Kristina Johnson","imageDescription":"Undersecretary US Dept. of Energy. Known for: contributions to optoelectronic processing systems and liquid crystal devices.","image":"-Kristina_M._Johnson.jpg"},
+{"name":"Anita Borg","imageDescription":"Founder Anita Borg Institute and Grace Hopper Celebration of Women in Computing. Contributions to fault tolerant computing and suppor of women in computing","image":"Anita_Borg.jpg"},
+{"name":"Augusta Ada Lovelace King","imageDescription":"Mathematician. Known for: being the 1st computer programmer in 1843","image":"ada-lovelace-20825279-1-402.jpg"},
+{"name":"Grace Hopper","imageDescription":"US Navy Admiral, Computer History Museum Fellow. Known for: inventing the 1st compiler, popularizing term debugging for fixing code.","image":"grace-hopper-21406809-1-402.jpg"},
+{"name":"Anuradha Annaswamy","imageDescription":"MIT Senior Reserch scientist,IIT. Known for: contributions to adaptive control theory and neural networks.","image":"Anuradha Annaswamy_1.jpg"}
+
+
+]
+
+
+
+
+
