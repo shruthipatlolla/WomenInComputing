@@ -6,7 +6,24 @@
 {"name":"Anita Borg","imageDescription":"Founder Anita Borg Institute and Grace Hopper Celebration of Women in Computing. Contributions to fault tolerant computing and suppor of women in computing","image":"Anita_Borg.jpg"},
 {"name":"Augusta Ada Lovelace King","imageDescription":"Mathematician. Known for: being the 1st computer programmer in 1843","image":"ada-lovelace-20825279-1-402.jpg"},
 {"name":"Grace Hopper","imageDescription":"US Navy Admiral, Computer History Museum Fellow. Known for: inventing the 1st compiler, popularizing term debugging for fixing code.","image":"grace-hopper-21406809-1-402.jpg"},
-{"name":"Anuradha Annaswamy","imageDescription":"MIT Senior Reserch scientist,IIT. Known for: contributions to adaptive control theory and neural networks.","image":"Anuradha Annaswamy_1.jpg"}
+{"name":"Anuradha Annaswamy","imageDescription":"MIT Senior Reserch scientist,IIT. Known for: contributions to adaptive control theory and neural networks.","image":"Anuradha Annaswamy_1.jpg"},
+{"name":"Susan Landau","imageDescription":"Professor at Worcester Polytechic Institute. Known for: public policy leadership in security and privacy.","image":"Landau.jpg"},
+{"name":"Lixia Zhang","imageDescription":"UCLA Professor, ACM Fellow. Known for: contributions to protocol designs for packet switched networks.","image":"Lixia2013.jpg"},
+{"name":"Kay McNulty","imageDescription":"ENIAC computer programmer team 1946. Known for: being a pioneer in programming the first electrical general-purpose computer.","image":"KayMcNulty.jpg"},
+{"name":"Jennifer Chayes","imageDescription":"Microsoft Research Distinguished Scientist. Known for: contributions t the foundations of dynamic random networks.","image":"jennifer chayes.jpg"},
+{"name":"Ellen Ochoa","imageDescription":"NASA Astronaut and Johnson Space Center Director. Known for: being a computer scientist and 1st Hispanc woman in space.","image":"ellen ochoa.jpg"},
+{"name":"Genevieve Bell","imageDescription":"Intel Director of Interaction and Experience Research. Known for: combinng anthropology and technology to explore social and cultural aspects of ubiquitous computing.","image":"genevieve-bell_1.jpg"},
+{"name":"Laurie Hendren","imageDescription":"Professor McGill Univ., ACM fellow. Known for: contributions to programming languages.","image":"s200_laurie.hendren.jpg"},
+{"name":"Barbara Liskov","imageDescription":"MIT Professor, Turing Award. Known for: contriutions to programming language and system design.","image":"LISKOV_barbara.jpg"},
+{"name":"Sophie Wilson","imageDescription":"Designer Acron Microcomputer. Known for: computer hardware design and for leadership in the transgender technical community.","image":"sophie wilson.jpg"},
+{"name":"Jean Bartik","imageDescription":"ENIAC computer programmer team 1946. Known for: being a pineer in programming the first electronic general purpose computer.","image":"jean bartik.jpg"},
+{"name":"Yuqing Gao","imageDescription":"IBM Senior Manager, ABI Women of Vision. Known for: contributions to speech recognition and speech-to-speech translation.","image":"Yuqing_Gao.jpg"},
+{"name":"Qiheng Hu","imageDescription":"Founder, China Internet Network Information Cener, Known for: leading the project team that brought the Internet to mainland China.","image":"Qh Hu.jpg"},
+{"name":"Deborah Estrin","imageDescription":"Professor Cornell NYCTech, ACM. Known for: contributions to Internet Protocols.","image":"deborah estrin.jpg"},
+{"name":"Marilyn Wescoff","imageDescription":"ENIAC computer programmer eam 1946. Known for: being a pioneer in programming the first electronic general-purpose computer.","image":"marylin wescoff.jpg"},
+{"name":"Mitchell Baker","imageDescription":"Exec. Chair Mozilla, ABI Women of Vision. Known for: leading open source programs for 20 years, supporting the dream of an open, inclusive and free internet.","image":"Winifred-Mitchell-Baker-.png"},
+{"name":"Manuela Veloso","imageDescription":"Carnegie Mellon Univ. Professor, IEEE Fellow. Known for: contributions to the development of cognition, perception and action in autonomous robot teams.","image":"Manuela_Veloso_IMG_2376.png"}
+
 
 
 ]
