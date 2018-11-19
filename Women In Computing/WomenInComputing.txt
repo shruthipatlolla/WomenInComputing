@@ -22,8 +22,31 @@
 {"name":"Deborah Estrin","imageDescription":"Professor Cornell NYCTech, ACM. Known for: contributions to Internet Protocols.","image":"deborah estrin.jpg"},
 {"name":"Marilyn Wescoff","imageDescription":"ENIAC computer programmer eam 1946. Known for: being a pioneer in programming the first electronic general-purpose computer.","image":"marylin wescoff.jpg"},
 {"name":"Mitchell Baker","imageDescription":"Exec. Chair Mozilla, ABI Women of Vision. Known for: leading open source programs for 20 years, supporting the dream of an open, inclusive and free internet.","image":"Winifred-Mitchell-Baker-.png"},
-{"name":"Manuela Veloso","imageDescription":"Carnegie Mellon Univ. Professor, IEEE Fellow. Known for: contributions to the development of cognition, perception and action in autonomous robot teams.","image":"Manuela_Veloso_IMG_2376.png"}
-
+{"name":"Manuela Veloso","imageDescription":"Carnegie Mellon Univ. Professor, IEEE Fellow. Known for: contributions to the development of cognition, perception and action in autonomous robot teams.","image":"Manuela_Veloso_IMG_2376.png"},
+{"name":"Chieko Asakawa","imageDescription":"IBM Fellow, ABI Women of Vision. Known for : accessibility research and development, and for leadership in the visually impaired technical community.","image":"asakawa-chieko_crop.jpg"},
+{"name":"Maria Klawe","imageDescription":"Harvey Mudd College President,ACM Fellow. Known for: technical, educational and disciplinary leadership; rapidly increasing the participation of women in computing.","image":"maria klawe.jpeg"},
+{"name":"Vicki Hanson","imageDescription":"RIT Distinguished Professor, ACM Fellow. Known for: contributions to computing tech for people with disabilities.","image":"Vicki_l_hanson_photo_1.png"},
+{"name":"Hessa Sultan Al Jaber","imageDescription":"Qatar ICT Minister, Chair CS Department. Known for: leadership in Qatar engineering, academics, and politics.","image":"hessa sultan.jpg"},
+{"name":"Grete Hermann","imageDescription":"Univ. of Gottingen mathematician. Known for: 1926 foundational paper for computerized algebra.","image":"Grete_Hermann.jpg"},
+{"name":"Arati Prabhakar","imageDescription":"US DARPA Director, IEEE Fellow. Known for: promoting economic growth by developing manufacturing tech for semiconductor devices.","image":"Arati_Prabhakar.jpg"},
+{"name":"Katherine Johnson","imageDescription":"NASA Mathematician. Known for: calculating the trajectory of early space launches.","image":"Katherine Johnson.jpg"},
+{"name":"Valerie Taylor","imageDescription":"Professor Texas A&M Univ., IEEE Fellow. Known for: contributions to performance enhancement of parallel computing applications.","image":"valerie taylor.jpg"},
+{"name":"Mary Jane Irwin","imageDescription":"Pennsylvania State Univ. Professor, ACM Fellow. Known for: contributions in computer arithmetic and digital signal processing architectures.","image":"mary jane irwin.jpg"},
+{"name":"Radia Perlman","imageDescription":"ACM SIGCOMM and Usenix Association Awards. Known for: contributions to network routing and security protocols.","image":"radia_perlman.jpg"},
+{"name":"Duy-Loan Le","imageDescription":"Senior Fellow-Texas Instruments. Known for: contributions to Digital Signal Processor microelectronics tech.","image":"Duy-Loan Le.jpg"},
+{"name":"Denice Denton","imageDescription":"UC Santa Cruz Chancellor, AAAS Fellow. Known for: leadership in engineering educatio, advocacy for women in science and technology, being the first openly gay UC Chancellor.","image":"Denice_Denton.jpg"},
+{"name":"Sophie Vandebroek","imageDescription":"CTO Xerox, IEEE Fellow. Known for: leadership in developing document systems.","image":"Sophie-Vandebroek_hero.jpg"},
+{"name":"Tova Milo","imageDescription":"Professor Tel Aviv Univ., ACM Fellow. Known for: contributions to database theory and busines process management.","image":"milo_tova.jpg"},
+{"name":"Betty Snyder","imageDescription":"ENIAC computer programmer team 1946. Known for: being a pioneer in programming the first electronic general-purpose computer.","image":"Betty.jpg"},
+{"name":"Padmasree Warrior","imageDescription":"Cisco CTO, Distinguished Alumni Award from IIT Delhi. Known for: being CTO at 2 major tech companies in succession.","image":"padmasree.jpg"},
+{"name":"Irene Greif","imageDescription":"IBM User Experience Group,ACM Fellow. Known for: pioneering the field of Computer Supported Cooperative Work.","image":"Greif_Irene-700x695.jpg"},
+{"name":"Linda Petzold","imageDescription":"Professor UC Santa Barbara, ACM Fellow. Known fo: contributions to computational science.","image":"linda-petzold.jpg"},
+{"name":"Mary Lou Jepsen","imageDescription":"Google X Head of the Display Division. Known for: being a remakable innovator -  entrepreneur and creating the One Laptop Per Laptop technology.","image":"mary lou jepsen.jpg"},
+{"name":"Ruth Lichterman Teitelbaum","imageDescription":"ENIAC computer programmer team 1946. Known for: being a pioneer in programming the first electronc general-purpose computer.","image":"ruth lichterman.jpg"},
+{"name":"Helen Greiner","imageDescription":"CEO of CyPhy Works, ABI Women of Vision.Known for: robotics entrepreneurship, developing robots like the iRobot for consumer and military markets.","image":"helen-greiner.jpg"},
+{"name":"Jean Sammet","imageDescription":"IBM Researcher, 1st woman ACM President, ACM Fellow. Known for: advancing the art and science of computer programming languages.","image":"jeansammet_1.jpg"},
+{"name":"Kathleen McKeown","imageDescription":"Professor Columbia Univ., ACM and AAAI Fellow. Known for: contributions to natural language processing.","image":"kathleen mckeown.jpg"},
+{"name":"Shafrira Goldwasser","imageDescription":"Turing Award Professor at MIT and Weismann Institute. Known for: foundational work in cryptography.","image":"Shafi_Goldwasser.jpg"}
 
 
 ]
