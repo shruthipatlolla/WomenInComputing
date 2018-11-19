@@ -46,8 +46,14 @@
 {"name":"Helen Greiner","imageDescription":"CEO of CyPhy Works, ABI Women of Vision.Known for: robotics entrepreneurship, developing robots like the iRobot for consumer and military markets.","image":"helen-greiner.jpg"},
 {"name":"Jean Sammet","imageDescription":"IBM Researcher, 1st woman ACM President, ACM Fellow. Known for: advancing the art and science of computer programming languages.","image":"jeansammet_1.jpg"},
 {"name":"Kathleen McKeown","imageDescription":"Professor Columbia Univ., ACM and AAAI Fellow. Known for: contributions to natural language processing.","image":"kathleen mckeown.jpg"},
-{"name":"Shafrira Goldwasser","imageDescription":"Turing Award Professor at MIT and Weismann Institute. Known for: foundational work in cryptography.","image":"Shafi_Goldwasser.jpg"}
-
+{"name":"Shafrira Goldwasser","imageDescription":"Turing Award Professor at MIT and Weismann Institute. Known for: foundational work in cryptography.","image":"Shafi_Goldwasser.jpg"},
+{"name":"Ruzena Bajcsy","imageDescription":"UC Berkeley Professor, ACM Fellow. Known for: contributions in robotic and intelligent systems.","image":"ruzena-bajcsy.jpg"},
+{"name":"Lila Ibrahim","imageDescription":"Chief Business Officer Coursera. Known for: leadership in offering free online courses, as a venture capitalist, social entrepreneur.","image":"lila-Ibrahim.jpg"},
+{"name":"Fran Bilas","imageDescription":"ENAC computer programmer team 1946. Known for: being a pioneer in programming the first electronic general-purpose computer.","image":"fran bilas.jpg"},
+{"name":"Frances Allen","imageDescription":"IBM Fellow Emertia, Turing Award. Known for: contributions to programming language compilers.","image":"Frances-Allen1.large.jpg"},
+{"name":"Susan Graham","imageDescription":"UC Berkeley Distinguished Professor, ACM Fellow. Known for: foundational compilation algorithms and programming tools.","image":"graham.jpg"},
+{"name":"Clarisse Sieckenius de Souza","imageDescription":"Professor PUC Rio de Janeiro. Known for: developing Semiotic Engineering.","image":"Clarisse_Sieckenius_de_Souza.jpg"},
+{"name":"Jennifer Widom","imageDescription":"Professor Stanford Univ., ACM Fellow,NAE Member. Known for: contributions to database systems.","image":"jennifer widom.jpg"}
 
 ]
 
