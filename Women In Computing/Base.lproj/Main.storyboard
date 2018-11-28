@@ -63,7 +63,18 @@
                                 </state>
                                 <connections>
                                     <action selector="onNext:" destination="3M2-Sv-3Kz" eventType="touchUpInside" id="9lC-vR-fPH"/>
-                                    <segue destination="DMI-bb-cL4" kind="unwind" unwindAction="onGoWithSegue:" id="URJ-Hg-085"/>
+                                    <segue destination="DMI-bb-cL4" kind="unwind" identifier="onGo" unwindAction="onGoWithSegue:" id="URJ-Hg-085"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mM1-3r-B7q">
+                                <rect key="frame" x="164" y="707" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Quit">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="DMI-bb-cL4" kind="unwind" unwindAction="quitGameWithSegue:" id="vqO-Nl-WRL"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -203,7 +214,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFp-ya-KEk">
                                 <rect key="frame" x="68" y="147" width="53" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431372549016" green="0.69803921568627447" blue="0.082462618534270948" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
                                 </accessibility>
@@ -217,15 +228,15 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="level1:" destination="JX7-pd-dcd" eventType="touchUpInside" id="kIb-Aj-O2B"/>
+                                    <action selector="level1:" destination="JX7-pd-dcd" eventType="touchUpInside" id="1Yq-Ul-KJe"/>
                                     <segue destination="3M2-Sv-3Kz" kind="presentation" id="fvK-8i-HvI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HCQ-ku-69d">
                                 <rect key="frame" x="161" y="147" width="53" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.69803921570000005" blue="0.082462618530000004" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="1" image="lock">
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="2">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -234,14 +245,14 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="level1:" destination="JX7-pd-dcd" eventType="touchUpInside" id="9Zd-M6-LBA"/>
+                                    <action selector="level2:" destination="JX7-pd-dcd" eventType="touchUpInside" id="sKH-l2-HZ9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WTr-ld-KG1">
                                 <rect key="frame" x="257" y="147" width="53" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.69803921570000005" blue="0.082462618530000004" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="1" image="lock">
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="3">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -250,14 +261,14 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="level1:" destination="JX7-pd-dcd" eventType="touchUpInside" id="mNQ-YJ-WFO"/>
+                                    <action selector="level3:" destination="JX7-pd-dcd" eventType="touchUpInside" id="jbH-R6-IWL"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CVU-EG-hlS">
                                 <rect key="frame" x="257" y="219" width="53" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.69803921570000005" blue="0.082462618530000004" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="1" image="lock">
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="6">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -266,126 +277,14 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="level1:" destination="JX7-pd-dcd" eventType="touchUpInside" id="WfL-hr-sgi"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdl-Gx-wD2">
-                                <rect key="frame" x="257" y="288" width="53" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.69803921570000005" blue="0.082462618530000004" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="1" image="lock">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="40"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="level1:" destination="JX7-pd-dcd" eventType="touchUpInside" id="IG5-wU-swb"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLP-vQ-YHA">
-                                <rect key="frame" x="257" y="359" width="53" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.69803921570000005" blue="0.082462618530000004" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="1" image="lock">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="40"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="level1:" destination="JX7-pd-dcd" eventType="touchUpInside" id="QRK-uE-cJE"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="caT-cb-i9L">
-                                <rect key="frame" x="257" y="431" width="53" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.69803921570000005" blue="0.082462618530000004" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="1" image="lock">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="40"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="level1:" destination="JX7-pd-dcd" eventType="touchUpInside" id="ko3-55-Zc8"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1i-IM-2Di">
-                                <rect key="frame" x="161" y="431" width="53" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.69803921570000005" blue="0.082462618530000004" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="1" image="lock">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="40"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="level1:" destination="JX7-pd-dcd" eventType="touchUpInside" id="EFn-cL-19j"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rNp-ln-tjv">
-                                <rect key="frame" x="68" y="431" width="53" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.69803921570000005" blue="0.082462618530000004" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="1" image="lock">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="40"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="level1:" destination="JX7-pd-dcd" eventType="touchUpInside" id="AQc-rr-UjW"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="apB-2u-klX">
-                                <rect key="frame" x="68" y="359" width="53" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.69803921570000005" blue="0.082462618530000004" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="1" image="lock">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="40"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="level1:" destination="JX7-pd-dcd" eventType="touchUpInside" id="XtR-xD-VW7"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mdx-j3-EOx">
-                                <rect key="frame" x="161" y="288" width="53" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.69803921570000005" blue="0.082462618530000004" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="1" image="lock">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="40"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="level1:" destination="JX7-pd-dcd" eventType="touchUpInside" id="D7u-Ws-T3P"/>
+                                    <action selector="level6:" destination="JX7-pd-dcd" eventType="touchUpInside" id="4up-7o-Exo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRU-AL-OWB">
                                 <rect key="frame" x="161" y="219" width="53" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.69803921570000005" blue="0.082462618530000004" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="1" image="lock">
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="5">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -394,14 +293,14 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="level1:" destination="JX7-pd-dcd" eventType="touchUpInside" id="IUh-ba-t04"/>
+                                    <action selector="level5:" destination="JX7-pd-dcd" eventType="touchUpInside" id="SKz-i1-OCZ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SBT-Pz-95Y">
                                 <rect key="frame" x="68" y="219" width="53" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.69803921570000005" blue="0.082462618530000004" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="1" image="lock">
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="4">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -410,39 +309,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="level1:" destination="JX7-pd-dcd" eventType="touchUpInside" id="KY7-X7-hKK"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BdO-st-F6V">
-                                <rect key="frame" x="161" y="359" width="53" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.69803921570000005" blue="0.082462618530000004" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="1" image="lock">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="40"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="level1:" destination="JX7-pd-dcd" eventType="touchUpInside" id="UvG-36-4fy"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M8H-e9-X6s">
-                                <rect key="frame" x="68" y="288" width="53" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76078431369999999" green="0.69803921570000005" blue="0.082462618530000004" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="1" image="lock">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="40"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <action selector="level1:" destination="JX7-pd-dcd" eventType="touchUpInside" id="gY9-2O-Tlv"/>
+                                    <action selector="level4:" destination="JX7-pd-dcd" eventType="touchUpInside" id="HJ7-FE-DDA"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dl0-Qh-ozE">
@@ -473,6 +340,12 @@
                         <outlet property="coinsvalue" destination="Dl0-Qh-ozE" id="NyZ-uk-GMs"/>
                         <outlet property="gold" destination="3aV-eP-plb" id="1kD-vN-N1A"/>
                         <outlet property="heart" destination="VaP-0w-3Nx" id="ttb-mh-2c6"/>
+                        <outlet property="level1" destination="yFp-ya-KEk" id="75w-jK-lY2"/>
+                        <outlet property="level2" destination="HCQ-ku-69d" id="Kji-La-0iO"/>
+                        <outlet property="level3" destination="WTr-ld-KG1" id="i12-ob-oi8"/>
+                        <outlet property="level4" destination="SBT-Pz-95Y" id="vW5-N1-sfB"/>
+                        <outlet property="level5" destination="cRU-AL-OWB" id="Vmw-bQ-xHg"/>
+                        <outlet property="level6" destination="CVU-EG-hlS" id="V6O-a4-rK3"/>
                         <outlet property="livesLbl" destination="cc5-Y7-WAB" id="18h-BW-wc3"/>
                         <outlet property="livesvalue" destination="hkt-4B-pX8" id="WQY-jL-iGB"/>
                         <outlet property="timer" destination="zlI-qa-SRk" id="wVv-c9-edG"/>
@@ -1123,7 +996,6 @@
         <image name="coins" width="160" height="160"/>
         <image name="help" width="512" height="512"/>
         <image name="lives" width="256" height="256"/>
-        <image name="lock" width="300" height="300"/>
         <image name="music" width="512" height="512"/>
         <image name="quiz" width="29" height="29"/>
         <image name="settings" width="29" height="29"/>

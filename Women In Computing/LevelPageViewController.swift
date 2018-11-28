@@ -20,6 +20,7 @@ class LevelPageViewController: UIViewController {
     @IBOutlet weak var level5: UIButton!
     @IBOutlet weak var level6: UIButton!
     
+    
     @IBOutlet weak var livesLbl: UILabel!
     
     @IBOutlet weak var livesvalue: UILabel!
