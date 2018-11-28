@@ -10,7 +10,15 @@ import UIKit
 
 class LevelPageViewController: UIViewController {
     
+    @IBAction func quitGame(segue:UIStoryboardSegue){}
+
     @IBAction func onGo(segue:UIStoryboardSegue){}
+    @IBOutlet weak var level1: UIButton!
+    @IBOutlet weak var level2: UIButton!
+    @IBOutlet weak var level3: UIButton!
+    @IBOutlet weak var level4: UIButton!
+    @IBOutlet weak var level5: UIButton!
+    @IBOutlet weak var level6: UIButton!
     
     @IBOutlet weak var livesLbl: UILabel!
     
@@ -31,79 +39,65 @@ class LevelPageViewController: UIViewController {
     @IBOutlet weak var gold: UIImageView!
     
     @IBAction func level1(_ sender: Any) {
-        onLevelSelecton()
+        onLevelSelecton(1)
     }
     
     @IBAction func level2(_ sender: Any) {
-        onLevelSelecton()
+        onLevelSelecton(2)
     }
     
     @IBAction func level3(_ sender: Any) {
-        onLevelSelecton()
+        onLevelSelecton(3)
     }
     
     @IBAction func level4(_ sender: Any) {
-        onLevelSelecton()
+        onLevelSelecton(4)
     }
     
     @IBAction func level5(_ sender: Any) {
-        onLevelSelecton()
+        onLevelSelecton(5)
     }
     
     @IBAction func level6(_ sender: Any) {
-        onLevelSelecton()
+        onLevelSelecton(6)
     }
+
     
-    @IBAction func level7(_ sender: Any) {
-    }
-    
-    @IBAction func level8(_ sender: Any) {
-        onLevelSelecton()
-    }
-    
-    @IBAction func level9(_ sender: Any) {
-        onLevelSelecton()
-    }
-    
-    
-    @IBAction func level10(_ sender: Any) {
-        onLevelSelecton()
-    }
-    
-    
-    @IBAction func level11(_ sender: Any) {
-        onLevelSelecton()
-    }
-    
-    @IBAction func level12(_ sender: Any) {
-        onLevelSelecton()
-    }
-    
-    @IBAction func level13(_ sender: Any) {
-        onLevelSelecton()
-    }
-    
-    
-    @IBAction func level14(_ sender: Any) {
-        onLevelSelecton()
-    }
-    
-    
-    @IBAction func level15(_ sender: Any) {
-        onLevelSelecton()
-    }
-    
-    func onLevelSelecton(){
+    func onLevelSelecton(_ level:Int){
+        AllWomen.allWomen.setLevelNumber(level: level)
         let gameVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "game") as! GameViewController
         self.present(gameVC, animated: true, completion: nil)
+       
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        disableAndEnableMultipleButtons(buttons: [level1, level2, level3, level4, level5, level6], levelsCompleted:2)
         // Do any additional setup after loading the view.
     }
     
+    func disableAndEnableMultipleButtons(buttons: [UIButton], levelsCompleted: Int) {
+        var dissAble:[Bool] = []
+        
+        for (index, button) in buttons.enumerated() {
+            if index < levelsCompleted{
+                dissAble.append(false)
+            }
+            else{
+                dissAble.append(true)
+            }
+            
+            switch dissAble[index] {
+            case true:
+                button.isEnabled = false
+                button.alpha = 0.3
+            case false:
+                button.isEnabled = true
+                button.alpha = 1.0
+            }
+            
+        }
+    }
 
     /*
     // MARK: - Navigation

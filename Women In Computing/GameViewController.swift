@@ -10,6 +10,7 @@ import UIKit
 
 class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
     
+    var levelNumber = AllWomen.allWomen.getLevelNumber()
    
     @IBOutlet weak var womenDescLBL: UITextView!
     @IBOutlet weak var womenImage: UIImageView!
@@ -86,10 +87,10 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     func generateRandomNumber() -> Int {
         var randomNumber = -1
         repeat {
-            randomNumber = Int(arc4random_uniform(2))
+            randomNumber = Int(arc4random_uniform(UInt32(levelNumber)))
         } while randomNumbersList.contains(randomNumber)
         randomNumbersList.append(randomNumber)
-        print(randomNumber)
+        //print(randomNumber)
             
         return randomNumber
     }
@@ -111,11 +112,16 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     }
    
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
-        if(randomNumbersList.count < 2){
+        if identifier == "onGo"{
+        if(randomNumbersList.count < levelNumber){
             viewWillAppear(true)
             return false
         }
         return true
+        }
+        else{
+            return true
+        }
     }
     
 }

@@ -61,13 +61,21 @@ struct AllWomen {
     
     static var allWomen:AllWomen = AllWomen()
     var womenList:[Women] = []
-    
+    var levelNumber = 0
     mutating func setWomenList(womenList:[Women]) {
         self.womenList = womenList
     }
     
     func getAllWomenList() -> [Women] {
         return womenList
+    }
+    
+    mutating func setLevelNumber(level:Int) -> Void {
+        self.levelNumber = level
+    }
+    
+    func getLevelNumber() -> Int {
+        return self.levelNumber
     }
 
 }
