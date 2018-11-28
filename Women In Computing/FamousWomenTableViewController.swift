@@ -28,9 +28,6 @@ class FamousWomenTableViewController: UITableViewController {
         let decoder = JSONDecoder()
         self.allWomen = try! decoder.decode([Women].self, from: content!)
         AllWomen.allWomen.setWomenList(womenList: self.allWomen)
-        for women in self.allWomen {
-            print(women)
-        }
 //        catch{
 ////            print(errors)
 //        }

@@ -9,7 +9,8 @@
 import UIKit
 
 class RegistrationViewController: UIViewController {
-
+    var  backendless  =  Backendless.sharedInstance()
+    
     @IBOutlet weak var firstNameTF: UITextField!
     @IBOutlet weak var lastNameTF: UITextField!
     @IBOutlet weak var emailTF: UITextField!
@@ -64,7 +65,7 @@ class RegistrationViewController: UIViewController {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
         if segue.identifier == "register"{
-            let user = User(name: firstNameTF.text! + lastNameTF.text!, email: emailTF.text!, password: passwordTF.text!)
+            let user = User(name: firstNameTF.text! + " " + lastNameTF.text!, email: emailTF.text!, password: passwordTF.text!)
             
                 if firstNameTF.text!.isEmpty || lastNameTF.text!.isEmpty {
                     //Disable button
@@ -94,8 +95,14 @@ class RegistrationViewController: UIViewController {
                 }
             
             else{
-                Users.users.addUser(user)
-                display(title: "Success", msg: "Registered successfully" )
+                //Users.users.addUser(user)
+                let userBackend = BackendlessUser()
+                    
+                userBackend.name = user.name as NSString
+                userBackend.email = user.email as NSString
+                userBackend.password = user.password as NSString
+                let registeredUser = self.backendless?.userService.register(userBackend)
+                display(title: "Success", msg: user.name + " Registered successfully" )
             }
             
         }
