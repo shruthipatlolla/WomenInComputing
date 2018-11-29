@@ -102,6 +102,20 @@ class RegistrationViewController: UIViewController {
                 userBackend.email = user.email as NSString
                 userBackend.password = user.password as NSString
                 let registeredUser = self.backendless?.userService.register(userBackend)
+                    let properties = [
+                        "score" : 0,
+                        "levels" : 0
+                    ]
+                    registeredUser!.updateProperties( properties )
+                    self.backendless?.userService.update(registeredUser,
+                                                        response: { ( updatedUser : BackendlessUser!) -> () in
+                                                            print("Updated user: \(updatedUser)")
+                                                            
+                    },
+                                                        
+                                                        error: { ( fault : Fault!) -> () in
+                                                            print("Server reported an error (2): \(fault)")
+                    })
                 display(title: "Success", msg: user.name + " Registered successfully" )
             }
             

@@ -18,6 +18,7 @@ struct User {
 struct Users {
     static var users = Users()
     private var userList:[User]
+    private var currentUser:BackendlessUser = BackendlessUser()
     init() {
         userList = [User(name: "testuser", email: "testuser@gmail.com", password: "testuser")]
     }
@@ -27,7 +28,16 @@ struct Users {
     func user(_ index:Int) -> User {
         return userList[index]
     }
-    func isValid(userName:String, password:String) -> Bool {
+    
+    mutating func setCurrentUser(user:BackendlessUser) -> Void {
+        currentUser = user
+        print(user.password)
+    }
+    
+    func getCurrentUser() -> BackendlessUser{
+        return currentUser
+    }
+   /** func isValid(userName:String, password:String) -> Bool {
         var valid = false
         for user in userList {
             if userName == user.email {
@@ -37,5 +47,5 @@ struct Users {
             }
         }
         return valid
-    }
+    } **/
 }

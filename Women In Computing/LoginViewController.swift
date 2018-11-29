@@ -40,6 +40,7 @@ class LoginViewController: UIViewController {
                                                        password: passwordTF.text!,
                                                        response: { user in
                                                         if user != nil {
+                                                            Users.users.setCurrentUser(user: user!)
                                                             self.performSegue(withIdentifier: "login", sender: user)
                                                         }
                                                         
