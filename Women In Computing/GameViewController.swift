@@ -36,12 +36,19 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         womenImage.image = UIImage(named: womenList[randomNumber].image)
         answerList = []
         var otherOptions = uniqueRandoms(numberOfRandoms: 2, maxNum: 3, blackList: randomNumber)
+        print(womenList[randomNumber].name)
         answerList.append(womenList[randomNumber].name)
         answerList.append(womenList[otherOptions[0]].name)
         answerList.append(womenList[otherOptions[1]].name)
         answerDropdown.delegate = self;
         
         
+    }
+    func display(title:String, msg:String) {
+        let alert = UIAlertController(title: title, message: msg, preferredStyle: .alert)
+        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alert.addAction(action)
+        present(alert, animated: true, completion: nil)
     }
         
     override func didReceiveMemoryWarning() {
@@ -113,10 +120,18 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
    
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         if identifier == "onGo"{
+            if String(answerTF.text!) == womenList[randomNumber].name{
+                Users.users.setScore(score: Users.users.getScore()
+                + 5)
+            }
         if(randomNumbersList.count < levelNumber){
             viewWillAppear(true)
             return false
         }
+        else{
+            Users.users.setLevelsCompleted(completed: Users.users.getLevelsCompleted() + 1)
+            display(title: "Success", msg: "Complete the level successfully")
+            }
         return true
         }
         else{

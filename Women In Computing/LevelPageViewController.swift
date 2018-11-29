@@ -67,7 +67,11 @@ class LevelPageViewController: UIViewController {
         disableAndEnableMultipleButtons(buttons: [level1, level2, level3, level4, level5, level6], levelsCompleted: Users.users.getLevelsCompleted())
         // Do any additional setup after loading the view.
     }
-    
+    override func viewWillAppear(_ animated: Bool) {
+        disableAndEnableMultipleButtons(buttons: [level1, level2, level3, level4, level5, level6], levelsCompleted: Users.users.getLevelsCompleted())
+        print(Users.users.getScore())
+        coinsvalue.text! = String(Users.users.getScore())
+    }
     func disableAndEnableMultipleButtons(buttons: [UIButton], levelsCompleted: Int) {
         var dissAble:[Bool] = []
         
