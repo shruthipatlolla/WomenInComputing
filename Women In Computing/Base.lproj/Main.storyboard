@@ -353,11 +353,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="54" translatesAutoresizingMaskIntoConstraints="NO" id="FTR-XL-9lV">
-                                <rect key="frame" x="27" y="44" width="321.33333333333331" height="613.33333333333337"/>
+                                <rect key="frame" x="27" y="44" width="277" height="542"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ac7-0X-lvB">
-                                        <rect key="frame" x="90.999999999999986" y="0.0" width="139.66666666666663" height="29"/>
+                                        <rect key="frame" x="68.666666666666671" y="0.0" width="139.66666666666663" height="29"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="29" id="gFK-Eh-ARj"/>
                                         </constraints>
@@ -367,10 +367,10 @@
                                         <size key="shadowOffset" width="0.0" height="1"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="NyC-jH-kvp">
-                                        <rect key="frame" x="0.0" y="82.999999999999986" width="321.33333333333331" height="132.66666666666663"/>
+                                        <rect key="frame" x="0.0" y="83" width="277" height="61.333333333333343"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="b9C-Fx-qR6">
-                                                <rect key="frame" x="0.0" y="0.0" width="134.33333333333334" height="132.66666666666666"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="90" height="61.333333333333336"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gx-Xd-f1J">
                                                         <rect key="frame" x="0.0" y="0.0" width="90" height="25.666666666666668"/>
@@ -384,22 +384,10 @@
                                                         <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSj-Dy-nmS">
-                                                        <rect key="frame" x="0.0" y="71.333333333333343" width="78.333333333333329" height="25.666666666666671"/>
-                                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
-                                                        <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contact number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yrY-bm-K9s">
-                                                        <rect key="frame" x="0.0" y="107" width="134.33333333333334" height="25.666666666666657"/>
-                                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
-                                                        <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="AWr-4S-EWR">
-                                                <rect key="frame" x="154.33333333333334" y="0.0" width="167.00000000000003" height="132.66666666666666"/>
+                                                <rect key="frame" x="110" y="0.0" width="167" height="61.333333333333336"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="test user" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DbJ-Hp-6fQ">
                                                         <rect key="frame" x="0.0" y="0.0" width="78.666666666666671" height="25.666666666666668"/>
@@ -413,30 +401,18 @@
                                                         <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*******" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cen-gz-ccW">
-                                                        <rect key="frame" x="0.0" y="71.333333333333343" width="68.666666666666671" height="25.666666666666671"/>
-                                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
-                                                        <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+1 99-999-9999" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbS-MK-xRf">
-                                                        <rect key="frame" x="0.0" y="107" width="147.33333333333334" height="25.666666666666657"/>
-                                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
-                                                        <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="App Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgW-pa-lJt">
-                                        <rect key="frame" x="106" y="269.66666666666669" width="109.66666666666669" height="25.666666666666686"/>
+                                        <rect key="frame" x="83.666666666666657" y="198.33333333333334" width="109.66666666666666" height="25.666666666666657"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
                                         <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="oqM-Bb-kmG">
-                                        <rect key="frame" x="34.333333333333343" y="349.33333333333331" width="253.00000000000003" height="263.99999999999994"/>
+                                        <rect key="frame" x="12" y="278" width="253" height="264"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="h64-cH-ZAh">
                                                 <rect key="frame" x="0.0" y="0.0" width="88" height="264"/>
@@ -455,7 +431,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="help" translatesAutoresizingMaskIntoConstraints="NO" id="GBO-gq-Fan">
-                                                        <rect key="frame" x="0.0" y="182.00000000000006" width="88" height="82"/>
+                                                        <rect key="frame" x="0.0" y="182" width="88" height="82"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="82" id="nkC-62-IB0"/>
                                                         </constraints>
@@ -489,7 +465,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B8J-CM-Bmp">
-                                                                <rect key="frame" x="0.0" y="48.666666666666686" width="51" height="31"/>
+                                                                <rect key="frame" x="0.0" y="48.666666666666629" width="51" height="31"/>
                                                             </switch>
                                                         </subviews>
                                                     </stackView>
@@ -521,6 +497,10 @@
                         <viewLayoutGuide key="safeArea" id="TXC-tb-nac"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" image="settings" selectedImage="settings" id="6NE-bz-s5C"/>
+                    <connections>
+                        <outlet property="emailLbl" destination="wvG-bW-WSx" id="mkd-jU-Kqr"/>
+                        <outlet property="userNameLbl" destination="DbJ-Hp-6fQ" id="7e5-cH-fgn"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VD0-6w-5WS" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="vA4-H7-lfo" userLabel="Exit" sceneMemberID="exit"/>
