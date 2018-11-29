@@ -64,7 +64,7 @@ class LevelPageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        disableAndEnableMultipleButtons(buttons: [level1, level2, level3, level4, level5, level6], levelsCompleted:2)
+        disableAndEnableMultipleButtons(buttons: [level1, level2, level3, level4, level5, level6], levelsCompleted: Users.users.getLevelsCompleted())
         // Do any additional setup after loading the view.
     }
     
@@ -72,7 +72,7 @@ class LevelPageViewController: UIViewController {
         var dissAble:[Bool] = []
         
         for (index, button) in buttons.enumerated() {
-            if index < levelsCompleted{
+            if index < levelsCompleted+1{
                 dissAble.append(false)
             }
             else{

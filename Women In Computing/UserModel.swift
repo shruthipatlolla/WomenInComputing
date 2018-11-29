@@ -19,6 +19,8 @@ struct Users {
     static var users = Users()
     private var userList:[User]
     private var currentUser:BackendlessUser = BackendlessUser()
+    private var userScore:Int = 0
+    private var levelsCompleted = 0
     init() {
         userList = [User(name: "testuser", email: "testuser@gmail.com", password: "testuser")]
     }
@@ -31,12 +33,30 @@ struct Users {
     
     mutating func setCurrentUser(user:BackendlessUser) -> Void {
         currentUser = user
-        print(user.password)
     }
     
     func getCurrentUser() -> BackendlessUser{
         return currentUser
     }
+    
+    mutating func setScore(score:Int) -> Void {
+        userScore = score
+        print(score)
+    }
+    
+    func getScore() -> Int{
+        return userScore
+    }
+    
+    mutating func setLevelsCompleted(completed:Int) -> Void {
+        levelsCompleted = completed
+        print(levelsCompleted)
+    }
+    
+    func getLevelsCompleted() -> Int{
+        return levelsCompleted
+    }
+    
    /** func isValid(userName:String, password:String) -> Bool {
         var valid = false
         for user in userList {

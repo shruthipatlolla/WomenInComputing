@@ -40,7 +40,11 @@ class LoginViewController: UIViewController {
                                                        password: passwordTF.text!,
                                                        response: { user in
                                                         if user != nil {
+                                                            let currentUser : BackendlessUser = Backendless.sharedInstance()!.userService.currentUser
+                                                            Users.users.setScore(score: currentUser.getProperty("score") as! Int)
+                                                            Users.users.setLevelsCompleted(completed:currentUser.getProperty("levels") as! Int)
                                                             Users.users.setCurrentUser(user: user!)
+                                                           // Users.users.setScore(score: us)
                                                             self.performSegue(withIdentifier: "login", sender: user)
                                                         }
                                                         
