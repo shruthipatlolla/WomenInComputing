@@ -41,6 +41,7 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         answerList.append(womenList[randomNumber].name)
         answerList.append(womenList[otherOptions[0]].name)
         answerList.append(womenList[otherOptions[1]].name)
+        answerList = answerList.shuffled()
         answerDropdown.delegate = self;
         
         
