@@ -9,6 +9,7 @@
 import UIKit
 
 class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
+    var backendless = Backendless.sharedInstance()
     
     var levelNumber = AllWomen.allWomen.getLevelNumber()
    
@@ -132,7 +133,23 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         }
         else{
             Users.users.setLevelsCompleted(completed: Users.users.getLevelsCompleted() + 1)
-            display(title: "Success", msg: "Complete the level successfully")
+            // Updating User score and levels completed data to database
+            var currentUser = Users.users.getCurrentUser()
+            let properties = [
+                "score" : Users.users.getScore(),
+                "levels" : Users.users.getLevelsCompleted()
+            ]
+            currentUser.updateProperties( properties )
+            self.backendless?.userService.update(currentUser,
+                                                 response: { ( updatedUser : BackendlessUser!) -> () in
+                                                    print("Updated user: \(updatedUser)")
+                                                    
+            },
+                                                 
+                                                 error: { ( fault : Fault!) -> () in
+                                                    print("Server reported an error (2): \(fault)")
+            })
+            display(title: "Success", msg: "Completed the level successfully")
             }
         return true
         }
