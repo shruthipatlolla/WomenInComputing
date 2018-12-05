@@ -8,6 +8,7 @@
 
 import UIKit
 
+// View Controller to represent the data related to famous women in computing 
 class FamousWomenTableViewController: UITableViewController {
     
     static var famousWomenTVC:FamousWomenTableViewController = FamousWomenTableViewController()
