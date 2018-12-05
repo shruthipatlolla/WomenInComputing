@@ -7,7 +7,7 @@
 //
 
 import Foundation
-
+import AVFoundation
 
 struct User {
     var name:String
@@ -21,6 +21,9 @@ struct Users {
     private var currentUser:BackendlessUser = BackendlessUser()
     private var userScore:Int = 0
     private var levelsCompleted = 0
+    
+    var audioPlayer:AVAudioPlayer!
+    
     init() {
         userList = [User(name: "testuser", email: "testuser@gmail.com", password: "testuser")]
     }
@@ -55,6 +58,17 @@ struct Users {
     
     func getLevelsCompleted() -> Int{
         return levelsCompleted
+    }
+    
+    mutating func playSound(file:String, ext:String) -> Void {
+        do {
+            let url = URL.init(fileURLWithPath: Bundle.main.path(forResource: file, ofType: ext)!)
+            self.audioPlayer = try AVAudioPlayer(contentsOf: url)
+            audioPlayer.prepareToPlay()
+            audioPlayer.play()
+        } catch let error {
+            NSLog(error.localizedDescription)
+        }
     }
     
    /** func isValid(userName:String, password:String) -> Bool {

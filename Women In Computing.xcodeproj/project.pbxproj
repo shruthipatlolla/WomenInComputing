@@ -12,6 +12,9 @@
 		1609BB9D217B0A0F00B88AC2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609BB9C217B0A0F00B88AC2 /* UserModel.swift */; };
 		1609BB9F217B123B00B88AC2 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609BB9E217B123B00B88AC2 /* RegistrationViewController.swift */; };
 		1609BBA1217B1E3C00B88AC2 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1609BBA0217B1E3C00B88AC2 /* ForgotPasswordViewController.swift */; };
+		16650A9321B75FD30038E9FC /* test.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16650A9221B75FD30038E9FC /* test.mp3 */; };
+		16650A9721B760B90038E9FC /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16650A9621B760B90038E9FC /* SoundViewController.swift */; };
+		16650A9921B7663A0038E9FC /* success.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 16650A9821B7663A0038E9FC /* success.mp3 */; };
 		1678E2C921A2172100436FD9 /* WomenInComputing.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1678E2C821A2172100436FD9 /* WomenInComputing.txt */; };
 		29CE7A4E216731E800050F60 /* LevelPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CE7A4D216731E800050F60 /* LevelPageViewController.swift */; };
 		3F3614BA2168097F00072997 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3614B92168097F00072997 /* SettingsViewController.swift */; };
@@ -52,6 +55,9 @@
 		1609BB9C217B0A0F00B88AC2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		1609BB9E217B123B00B88AC2 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		1609BBA0217B1E3C00B88AC2 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		16650A9221B75FD30038E9FC /* test.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = test.mp3; sourceTree = "<group>"; };
+		16650A9621B760B90038E9FC /* SoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
+		16650A9821B7663A0038E9FC /* success.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = success.mp3; sourceTree = "<group>"; };
 		1678E2C821A2172100436FD9 /* WomenInComputing.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WomenInComputing.txt; sourceTree = "<group>"; };
 		29CE7A4D216731E800050F60 /* LevelPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelPageViewController.swift; sourceTree = "<group>"; };
 		3F3614B92168097F00072997 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +148,8 @@
 		3F43ECC72166B819007ABB36 /* Women In Computing */ = {
 			isa = PBXGroup;
 			children = (
+				16650A9821B7663A0038E9FC /* success.mp3 */,
+				16650A9221B75FD30038E9FC /* test.mp3 */,
 				1678E2C821A2172100436FD9 /* WomenInComputing.txt */,
 				3F43ECC82166B819007ABB36 /* AppDelegate.swift */,
 				3F43ECCA2166B819007ABB36 /* GameViewController.swift */,
@@ -157,6 +165,7 @@
 				1609BB9A217B053A00B88AC2 /* LoginViewController.swift */,
 				1609BBA0217B1E3C00B88AC2 /* ForgotPasswordViewController.swift */,
 				16064C922191307F007824FB /* Women.swift */,
+				16650A9621B760B90038E9FC /* SoundViewController.swift */,
 			);
 			path = "Women In Computing";
 			sourceTree = "<group>";
@@ -304,8 +313,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F43ECD52166B819007ABB36 /* LaunchScreen.storyboard in Resources */,
+				16650A9321B75FD30038E9FC /* test.mp3 in Resources */,
 				1678E2C921A2172100436FD9 /* WomenInComputing.txt in Resources */,
 				3F43ECD22166B819007ABB36 /* Assets.xcassets in Resources */,
+				16650A9921B7663A0038E9FC /* success.mp3 in Resources */,
 				3F43ECD02166B819007ABB36 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +438,7 @@
 				1609BB9B217B053A00B88AC2 /* LoginViewController.swift in Sources */,
 				29CE7A4E216731E800050F60 /* LevelPageViewController.swift in Sources */,
 				1609BB9D217B0A0F00B88AC2 /* UserModel.swift in Sources */,
+				16650A9721B760B90038E9FC /* SoundViewController.swift in Sources */,
 				1609BB9F217B123B00B88AC2 /* RegistrationViewController.swift in Sources */,
 				3F43ECC92166B819007ABB36 /* AppDelegate.swift in Sources */,
 				1609BBA1217B1E3C00B88AC2 /* ForgotPasswordViewController.swift in Sources */,
@@ -601,7 +613,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PX3UP69539;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Women In Computing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Women-In-Computing";
@@ -618,7 +630,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PX3UP69539;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Women In Computing/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "nwmissouri.edu.Women-In-Computing";

@@ -96,7 +96,7 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     func generateRandomNumber() -> Int {
         var randomNumber = -1
         repeat {
-            randomNumber = Int(arc4random_uniform(UInt32(levelNumber)))
+            randomNumber = Int(arc4random_uniform(UInt32(levelNumber*2)))
         } while randomNumbersList.contains(randomNumber)
         randomNumbersList.append(randomNumber)
         //print(randomNumber)
@@ -126,7 +126,7 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
                 Users.users.setScore(score: Users.users.getScore()
                 + 5)
             }
-        if(randomNumbersList.count < levelNumber){
+        if(randomNumbersList.count < levelNumber*2){
             viewWillAppear(true)
             return false
         }
@@ -149,6 +149,7 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
                                                     print("Server reported an error (2): \(fault)")
             })
             display(title: "Success", msg: "Completed the level successfully")
+            Users.users.playSound(file: "success", ext: "mp3")
             }
         return true
         }
