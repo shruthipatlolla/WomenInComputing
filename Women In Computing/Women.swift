@@ -10,8 +10,9 @@ import Foundation
 import UIKit
 
 @objcMembers
+//represents the women model
 class Women : NSObject, Decodable{
-    
+    // represents the Women functions
     static var women:Women = Women()
     
     var imageDescription:String
@@ -56,24 +57,25 @@ class Women : NSObject, Decodable{
     
     
 }
-
+//AllWomen struct represents the functionality
 struct AllWomen {
-    
+    // represents the AllWomen functions
     static var allWomen:AllWomen = AllWomen()
     var womenList:[Women] = []
     var levelNumber = 0
+    //sets the women list
     mutating func setWomenList(womenList:[Women]) {
         self.womenList = womenList
     }
-    
+    //gets all the women list
     func getAllWomenList() -> [Women] {
         return womenList
     }
-    
+    //sets the users level number
     mutating func setLevelNumber(level:Int) -> Void {
         self.levelNumber = level
     }
-    
+    //returns the users level number
     func getLevelNumber() -> Int {
         return self.levelNumber
     }

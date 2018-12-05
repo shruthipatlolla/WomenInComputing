@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//View controller to adjust the settings
 class SettingsViewController: UIViewController {
 
     @IBOutlet weak var userNameLbl: UILabel!

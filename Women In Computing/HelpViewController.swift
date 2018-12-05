@@ -2,12 +2,12 @@
 //  HelpViewController.swift
 //  Women In Computing
 //
-//  Created by student on 12/4/18.
+//  Created by Bhavika Padidala on 12/4/18.
 //  Copyright © 2018 Student. All rights reserved.
 //
 
 import UIKit
-
+//Viewcontroller to help users in case of any difficulty
 class HelpViewController: UIViewController {
 
     override func viewDidLoad() {

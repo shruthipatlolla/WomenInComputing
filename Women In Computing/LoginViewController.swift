@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//Viewcontroller to allow the users to login
 class LoginViewController: UIViewController {
 
     @IBAction func onLogout(segue:UIStoryboardSegue){}
@@ -27,7 +27,7 @@ class LoginViewController: UIViewController {
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.jpg")!)
     }
    
-    
+    //To display alerts in the current page
     func display(title:String, msg:String) {
         let alert = UIAlertController(title: title, message: msg, preferredStyle: .alert)
         let action = UIAlertAction(title: "OK", style: .default, handler: nil)

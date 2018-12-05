@@ -21,7 +21,7 @@ class FamousWomenTableViewController: UITableViewController {
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.jpg")!)
         retrieveDataFromJSON()
     }
-    
+    // Function to read data from the JSON file
     func retrieveDataFromJSON(){
         let mainBundle = Bundle.main
         let aPath = mainBundle.path(forResource: "WomenInComputing", ofType: "txt")
