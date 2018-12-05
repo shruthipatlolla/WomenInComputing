@@ -38,7 +38,7 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         womenDescLBL.text = womenList[randomNumber].imageDescription
         womenImage.image = UIImage(named: womenList[randomNumber].image)
         answerList = []
-        var otherOptions = uniqueRandoms(numberOfRandoms: 2, maxNum: 3, blackList: randomNumber)
+        var otherOptions = uniqueRandoms(numberOfRandoms: 2, maxNum: UInt32(womenList.count), blackList: randomNumber)
         print(womenList[randomNumber].name)
         answerList.append(womenList[randomNumber].name)
         answerList.append(womenList[otherOptions[0]].name)
