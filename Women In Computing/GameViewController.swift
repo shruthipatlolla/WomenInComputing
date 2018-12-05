@@ -25,6 +25,8 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     let womenList = AllWomen.allWomen.getAllWomenList()
    
     var answerList:[String] = []
+    var corectAnswers = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -51,9 +53,10 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     // to display required alerts
     func display(title:String, msg:String) {
         let alert = UIAlertController(title: title, message: msg, preferredStyle: .alert)
-        let action = UIAlertAction(title: "OK", style: .default, handler: nil)
-        alert.addAction(action)
+        let actionOk = UIAlertAction(title: "OK", style: .default, handler: nil)
+        alert.addAction(actionOk)
         present(alert, animated: true, completion: nil)
+
     }
         
     override func didReceiveMemoryWarning() {
@@ -128,15 +131,24 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         if identifier == "onGo"{
             if String(answerTF.text!) == womenList[randomNumber].name{
+                self.corectAnswers = self.corectAnswers + 1
                 Users.users.setScore(score: Users.users.getScore()
                 + 5)
             }
+            
         if(randomNumbersList.count < levelNumber*2){
             viewWillAppear(true)
             return false
         }
         else{
-            Users.users.setLevelsCompleted(completed: Users.users.getLevelsCompleted() + 1)
+            if self.corectAnswers == levelNumber*2 {
+                Users.users.setLevelsCompleted(completed: levelNumber)
+                display(title: "Success", msg: "Completed the level successfully")
+                Users.users.playSound(file: "success", ext: "mp3")
+            }
+            else{
+                display(title: "Try again", msg: "You have answered \(self.corectAnswers) correct")
+            }
             // Updating User score and levels completed data to database
             var currentUser = Users.users.getCurrentUser()
             let properties = [
@@ -153,8 +165,8 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
                                                  error: { ( fault : Fault!) -> () in
                                                     print("Server reported an error (2): \(fault)")
             })
-            display(title: "Success", msg: "Completed the level successfully")
-            Users.users.playSound(file: "success", ext: "mp3")
+            
+            
             }
         return true
         }
