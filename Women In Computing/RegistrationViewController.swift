@@ -102,26 +102,28 @@ class RegistrationViewController: UIViewController {
                 //Users.users.addUser(user)
                 let userBackend = BackendlessUser()
                     
-                userBackend.name = user.name as NSString
-                userBackend.email = user.email as NSString
-                userBackend.password = user.password as NSString
-                let registeredUser = self.backendless?.userService.register(userBackend)
-                    let properties = [
+               // userBackend.name = user.name as NSString
+              //  userBackend.email = user.email as NSString
+               // userBackend.password = user.password as NSString
+                    userBackend.setProperties([
+                        "name" : user.name as NSString,
+                        "email" : user.email as NSString,
+                        "password" : user.password as NSString,
                         "score" : 0,
                         "levels" : 0
-                    ]
-                    registeredUser!.updateProperties( properties )
-                    self.backendless?.userService.update(registeredUser,
-                                                        response: { ( updatedUser : BackendlessUser!) -> () in
-                                                            print("Updated user: \(String(describing: updatedUser))")
-                                                            
+                        ])
+                   let registeredUser = self.backendless?.userService.register(userBackend, response: { ( updatedUser : BackendlessUser!) -> () in
+                        self.display(title: "Success", msg: user.name + " Registered successfully" )
+
+                        
                     },
-                                                        
-                                                        error: { ( fault : Fault!) -> () in
-                                                            print("Server reported an error (2): \(String(describing: fault))")
+                                                                                
+                                                                                error: { ( fault : Fault!) -> () in
+                                                                                    
+                                                                                    self.display(title: "Failure", msg: user.name + "The user is already registered" )
                     })
-                display(title: "Success", msg: user.name + " Registered successfully" )
-            }
+                    
+                            }
             
         }
     }
