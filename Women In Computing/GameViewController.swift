@@ -8,6 +8,7 @@
 
 import UIKit
 
+// View Controller to represent the game functionality
 class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, UITextFieldDelegate {
     var backendless = Backendless.sharedInstance()
     
@@ -48,6 +49,7 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         
         
     }
+    // to display required alerts
     func display(title:String, msg:String) {
         let alert = UIAlertController(title: title, message: msg, preferredStyle: .alert)
         let action = UIAlertAction(title: "OK", style: .default, handler: nil)
@@ -95,6 +97,7 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         }
     }
     
+    //function to generate random number withi n the mentioned range
     func generateRandomNumber() -> Int {
         var randomNumber = -1
         repeat {
@@ -106,6 +109,7 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         return randomNumber
     }
     
+    //To generate certain number of unique random numbers with in the range
     func uniqueRandoms(numberOfRandoms: Int, maxNum: UInt32, blackList: Int?) -> [Int] {
         var uniqueNumbers = Set<Int>()
         while uniqueNumbers.count < numberOfRandoms {

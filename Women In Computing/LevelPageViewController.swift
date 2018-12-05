@@ -8,6 +8,7 @@
 
 import UIKit
 
+//View Controller to the level selection functionality
 class LevelPageViewController: UIViewController {
     
     @IBAction func quitGame(segue:UIStoryboardSegue){}
@@ -54,7 +55,7 @@ class LevelPageViewController: UIViewController {
         onLevelSelecton(6)
     }
 
-    
+    // functionality upon selecting the level
     func onLevelSelecton(_ level:Int){
         AllWomen.allWomen.setLevelNumber(level: level)
         let gameVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "game") as! GameViewController
@@ -72,6 +73,8 @@ class LevelPageViewController: UIViewController {
         print(Users.users.getScore())
         coinsvalue.text! = String(Users.users.getScore())
     }
+    
+    // Disable and enable levels based on the user levels completed value
     func disableAndEnableMultipleButtons(buttons: [UIButton], levelsCompleted: Int) {
         var dissAble:[Bool] = []
         
