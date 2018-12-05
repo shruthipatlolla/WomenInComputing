@@ -91,7 +91,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="39" height="38"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="18"/>
                                         <state key="normal" title="Next">
-                                            <color key="titleColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="titleColor" red="0.92610508420000004" green="0.85186773630000001" blue="0.1081693874" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
                                             <action selector="onNext:" destination="3M2-Sv-3Kz" eventType="touchUpInside" id="9lC-vR-fPH"/>
@@ -398,27 +398,78 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="hF7-Fr-0hO">
-                                <rect key="frame" x="49" y="147" width="276" height="212"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">The purpose of the game is to help people gain knowledge about the famous women all over the world who plays a major role in computing.  You will be allowed to know about all women in the first screen and you can take the quiz. If you are at level1 and if all your answers are correct then you will gain points and will be allowed to play the second level.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About the Application" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfn-Ig-o3R">
+                                <rect key="frame" x="42" y="131" width="166" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.92610508420000004" green="0.85186773630000001" blue="0.1081693874" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="How to play" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCM-09-ewe">
+                                <rect key="frame" x="42" y="474" width="90" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.92610508420000004" green="0.85186773630000001" blue="0.1081693874" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hF7-Fr-0hO">
+                                <rect key="frame" x="42" y="170" width="302" height="244"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">The purpose of the game is to help people gain knowledge about the famous women all over the world who plays a major role in computing. You will be allowed to know about all women in the first screen and you can take the quiz. If you are at level1 and if all your answers are correct then you will gain points and will be allowed to play the second level.</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="14" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.5" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7hJ-Ab-Yfa">
+                                <rect key="frame" x="42" y="503" width="302" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Know about the women from home screen. Select the level. Provide proper answer for displayed information in the game. Earn points for correct answers.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name=".AppleSystemUIFont"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.5" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0iR-IX-W4e">
+                                <rect key="frame" x="165" y="673" width="42" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.92610508420000004" green="0.85186773630000001" blue="0.1081693874" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tDw-Jv-zpp" kind="unwind" unwindAction="onHelpBackWithSegue:" id="BQ8-nq-stj"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fif-lS-9sB">
+                                <rect key="frame" x="163" y="78" width="50" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="25"/>
+                                <color key="textColor" red="0.76078431369999999" green="0.2049314819182429" blue="0.13001939013293937" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="o46-Jj-aag" firstAttribute="trailing" secondItem="hF7-Fr-0hO" secondAttribute="trailing" constant="50" id="CX9-f8-tkz"/>
-                            <constraint firstItem="hF7-Fr-0hO" firstAttribute="leading" secondItem="o46-Jj-aag" secondAttribute="leading" constant="49" id="Pls-xU-3q3"/>
-                            <constraint firstItem="o46-Jj-aag" firstAttribute="bottom" secondItem="hF7-Fr-0hO" secondAttribute="bottom" constant="419" id="ady-2F-AX2"/>
-                            <constraint firstItem="hF7-Fr-0hO" firstAttribute="top" secondItem="o46-Jj-aag" secondAttribute="top" constant="103" id="uug-ln-SxW"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="o46-Jj-aag"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c8o-ed-0Vo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="tDw-Jv-zpp" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2306" y="361"/>
+            <point key="canvasLocation" x="2304.8000000000002" y="360.59113300492612"/>
         </scene>
         <!--Settings-->
         <scene sceneID="a27-1t-pJX">
@@ -445,7 +496,7 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" alignment="center" spacing="54" translatesAutoresizingMaskIntoConstraints="NO" id="FTR-XL-9lV">
-                                <rect key="frame" x="52" y="44" width="283" height="542"/>
+                                <rect key="frame" x="52" y="43.999999999999972" width="283" height="467.33333333333331"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profile Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ac7-0X-lvB">
@@ -504,10 +555,10 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="oqM-Bb-kmG">
-                                        <rect key="frame" x="15" y="278" width="253" height="264"/>
+                                        <rect key="frame" x="15" y="278" width="253" height="189.33333333333337"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="h64-cH-ZAh">
-                                                <rect key="frame" x="0.0" y="0.0" width="88" height="264"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="88" height="164"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="music" translatesAutoresizingMaskIntoConstraints="NO" id="Xv8-NY-bJE">
                                                         <rect key="frame" x="0.0" y="0.0" width="88" height="71"/>
@@ -522,16 +573,10 @@
                                                             <constraint firstAttribute="height" constant="75" id="rvr-vm-kAQ"/>
                                                         </constraints>
                                                     </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="help" translatesAutoresizingMaskIntoConstraints="NO" id="GBO-gq-Fan">
-                                                        <rect key="frame" x="0.0" y="182" width="88" height="82"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="82" id="nkC-62-IB0"/>
-                                                        </constraints>
-                                                    </imageView>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="n7D-gl-vuT">
-                                                <rect key="frame" x="132" y="0.0" width="121" height="249"/>
+                                                <rect key="frame" x="132" y="0.0" width="121" height="189.33333333333334"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="FYt-wN-jzn">
                                                         <rect key="frame" x="0.0" y="0.0" width="121" height="75.666666666666671"/>
@@ -561,18 +606,23 @@
                                                             </switch>
                                                         </subviews>
                                                     </stackView>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Help" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFj-MA-BK3">
-                                                        <rect key="frame" x="0.0" y="223.33333333333331" width="37.333333333333336" height="25.666666666666657"/>
-                                                        <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="18"/>
-                                                        <color key="textColor" red="0.96731228300000005" green="0.94175000249999996" blue="0.68281793150000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zae-sF-gM1">
+                                <rect key="frame" x="152" y="579" width="63" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <state key="normal" title="Help">
+                                    <color key="titleColor" red="0.92610508419689119" green="0.85186773634295776" blue="0.10816938742241793" alpha="0.72999999999999998" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YTk-Pb-9ft" kind="presentation" id="acX-Ab-hbx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="TXC-tb-nac"/>
@@ -586,7 +636,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VD0-6w-5WS" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="vA4-H7-lfo" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="873" y="354"/>
+            <point key="canvasLocation" x="872.79999999999995" y="353.94088669950742"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="Vsc-VP-d6x">
@@ -1086,8 +1136,7 @@
     <resources>
         <image name="Music-icon" width="512" height="512"/>
         <image name="background" width="1082" height="1920"/>
-        <image name="coins" width="80" height="80"/>
-        <image name="help" width="512" height="512"/>
+        <image name="coins" width="160" height="160"/>
         <image name="music" width="512" height="512"/>
         <image name="quiz" width="29" height="29"/>
         <image name="settings" width="29" height="29"/>

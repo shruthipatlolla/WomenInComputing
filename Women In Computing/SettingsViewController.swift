@@ -10,6 +10,8 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+    @IBAction func onHelpBack(segue:UIStoryboardSegue){}
+    
     @IBOutlet weak var userNameLbl: UILabel!
   
     
