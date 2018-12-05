@@ -27,7 +27,7 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.jpg")!)
-        var user = Users.users.getCurrentUser()
+        let user = Users.users.getCurrentUser()
         self.userNameLbl.text = user.name as String
         self.emailLbl.text = user.email as String
         // Do any additional setup after loading the view.

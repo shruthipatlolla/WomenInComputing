@@ -109,12 +109,12 @@ class RegistrationViewController: UIViewController {
                     registeredUser!.updateProperties( properties )
                     self.backendless?.userService.update(registeredUser,
                                                         response: { ( updatedUser : BackendlessUser!) -> () in
-                                                            print("Updated user: \(updatedUser)")
+                                                            print("Updated user: \(String(describing: updatedUser))")
                                                             
                     },
                                                         
                                                         error: { ( fault : Fault!) -> () in
-                                                            print("Server reported an error (2): \(fault)")
+                                                            print("Server reported an error (2): \(String(describing: fault))")
                     })
                 display(title: "Success", msg: user.name + " Registered successfully" )
             }
@@ -125,7 +125,7 @@ class RegistrationViewController: UIViewController {
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         if identifier == "register" {
             print("In can")
-            let user = User(name: firstNameTF.text! + lastNameTF.text!, email: emailTF.text!, password: passwordTF.text!)
+            _ = User(name: firstNameTF.text! + lastNameTF.text!, email: emailTF.text!, password: passwordTF.text!)
         
                 print("in valid email")
                 if firstNameTF.text!.isEmpty || lastNameTF.text!.isEmpty || passwordTF.text!.isEmpty || confirmPasswordTF.text!.isEmpty {

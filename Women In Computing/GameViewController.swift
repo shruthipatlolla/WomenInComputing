@@ -29,6 +29,8 @@ class GameViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDa
         // Do any additional setup after loading the view, typically from a nib.
         //testcommit
         self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.png")!)
+//        womenImage.layer.cornerRadius = womenImage.frame.size.width/2
+//        womenImage.clipsToBounds = true
     }
     
     override func viewWillAppear(_ animated: Bool) {
