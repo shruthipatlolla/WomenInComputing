@@ -26,6 +26,7 @@
 		3F43ECE02166B819007ABB36 /* Women_In_ComputingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43ECDF2166B819007ABB36 /* Women_In_ComputingTests.swift */; };
 		3F43ECEB2166B819007ABB36 /* Women_In_ComputingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43ECEA2166B819007ABB36 /* Women_In_ComputingUITests.swift */; };
 		3F43ECF92166C5E8007ABB36 /* FamousWomenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43ECF82166C5E8007ABB36 /* FamousWomenTableViewController.swift */; };
+		3F84F10821B76CD400AE4CAD /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F84F10721B76CD400AE4CAD /* HelpViewController.swift */; };
 		4AE10C1EEF521CFF6C69F7CD /* Pods_Women_In_ComputingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A73F8DB0540CECBF0FBFE268 /* Pods_Women_In_ComputingTests.framework */; };
 		5FDE6BA9267CB78D5DAE1B88 /* Pods_Women_In_Computing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701C7872744653CA3240D9C5 /* Pods_Women_In_Computing.framework */; };
 		7E5A7C4EC37CAA0687241E06 /* Pods_Women_In_ComputingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DB75351FFE78BA3BBD087A6 /* Pods_Women_In_ComputingUITests.framework */; };
@@ -75,6 +76,7 @@
 		3F43ECEA2166B819007ABB36 /* Women_In_ComputingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Women_In_ComputingUITests.swift; sourceTree = "<group>"; };
 		3F43ECEC2166B819007ABB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F43ECF82166C5E8007ABB36 /* FamousWomenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamousWomenTableViewController.swift; sourceTree = "<group>"; };
+		3F84F10721B76CD400AE4CAD /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
 		5DB75351FFE78BA3BBD087A6 /* Pods_Women_In_ComputingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Women_In_ComputingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		701C7872744653CA3240D9C5 /* Pods_Women_In_Computing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Women_In_Computing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFC1FEFAC6BCA61D7DCEEDD /* Pods-Women In ComputingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Women In ComputingUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Women In ComputingUITests/Pods-Women In ComputingUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				1609BBA0217B1E3C00B88AC2 /* ForgotPasswordViewController.swift */,
 				16064C922191307F007824FB /* Women.swift */,
 				16650A9621B760B90038E9FC /* SoundViewController.swift */,
+				3F84F10721B76CD400AE4CAD /* HelpViewController.swift */,
 			);
 			path = "Women In Computing";
 			sourceTree = "<group>";
@@ -442,6 +445,7 @@
 				1609BB9F217B123B00B88AC2 /* RegistrationViewController.swift in Sources */,
 				3F43ECC92166B819007ABB36 /* AppDelegate.swift in Sources */,
 				1609BBA1217B1E3C00B88AC2 /* ForgotPasswordViewController.swift in Sources */,
+				3F84F10821B76CD400AE4CAD /* HelpViewController.swift in Sources */,
 				3F43ECCB2166B819007ABB36 /* GameViewController.swift in Sources */,
 				3F3614BA2168097F00072997 /* SettingsViewController.swift in Sources */,
 				16064C932191307F007824FB /* Women.swift in Sources */,
