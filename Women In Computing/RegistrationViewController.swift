@@ -27,7 +27,7 @@ class RegistrationViewController: UIViewController {
     
     
     
-    
+    //Function to alert users when they enter wrong input in the fields
     func textFieldDidChange(textField: UITextField) {
         if firstNameTF.text!.isEmpty || lastNameTF.text!.isEmpty {
             //Disable button

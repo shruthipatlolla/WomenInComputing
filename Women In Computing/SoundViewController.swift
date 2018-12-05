@@ -8,7 +8,7 @@
 
 import UIKit
 import AVFoundation
-
+//Viewcontroller to allow users to adjust the sound
 class SoundViewController: UIViewController {
     
     static var  soundVC:SoundViewController = SoundViewController()
@@ -28,7 +28,7 @@ class SoundViewController: UIViewController {
     @IBAction func playSound(_ sender: Any) {
         playSound(file: "test", ext: "mp3")
     }
-    
+    //Function to play the sound
     func playSound(file:String, ext:String) -> Void {
         do {
             let url = URL.init(fileURLWithPath: Bundle.main.path(forResource: file, ofType: ext)!)

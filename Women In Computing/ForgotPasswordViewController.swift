@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//Viewcontroller to handle the forgot password functionality
 class ForgotPasswordViewController: UIViewController {
 
     @IBOutlet weak var emailTF: UITextField!
@@ -17,7 +17,7 @@ class ForgotPasswordViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
+    //To display alert messages in the current view
     func display(title:String, msg:String) {
         let alert = UIAlertController(title: title, message: msg, preferredStyle: .alert)
         let action = UIAlertAction(title: "OK", style: .default, handler: nil)

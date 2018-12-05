@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+//View controller to adjust the settings
 class SettingsViewController: UIViewController {
 
     @IBAction func onHelpBack(segue:UIStoryboardSegue){}
